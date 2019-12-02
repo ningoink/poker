@@ -1,19 +1,22 @@
 import React from 'react'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
+import Paper from '@material-ui/core/Paper'
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
+    paper: {
+      height: '220px',
+      width: '160px',
+    },
   }),
 )
 
-const CardItem: React.FC = () => {
+const PokerItem: React.FC = () => {
   const classes = useStyles()
 
   return (
-    <div>
-      card item
-    </div>
+    <Paper className={classes.paper} />
   )
 }
 
-export default CardItem
+export default PokerItem
