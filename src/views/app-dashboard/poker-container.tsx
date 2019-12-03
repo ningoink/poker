@@ -6,23 +6,23 @@ import PokerItem from './poker-item'
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     gridRoot: {
-      margin: 'auto',
+      margin: 0,
+      padding: '0',
+      width: '100%',
       flexGrow: 1,
-      flexDirection: 'row',
-      justifyContent: 'left',
-      alignItems: 'center',
       [theme.breakpoints.up('xs')]: {
-        width: '320px',
+        padding: '0 8px',
       },
       [theme.breakpoints.up('sm')]: {
-        width: '480px',
+        padding: '0 16px',
       },
       [theme.breakpoints.up('md')]: {
-        width: '640px',
+        padding: '0 24px',
       },
       [theme.breakpoints.up('lg')]: {
-        width: '960px',
+        padding: '0 32px',
       },
+
     },
   }),
 )
@@ -36,7 +36,7 @@ const PokerContainer: React.FC = () => {
     <Grid
       container
       className={classes.gridRoot}
-      spacing={2}
+      spacing={1}
     >
       {PokerCards.map((value) => (
         <Grid

@@ -5,8 +5,9 @@ import Paper from '@material-ui/core/Paper'
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     paper: {
-      height: '220px',
-      width: '160px',
+      height: 0,
+      width: '100%',
+      paddingBottom: '140%',
     },
   }),
 )
