@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 )
 
-const PokerCards = Array.from(Array(54).keys())
+const PokerCards = Array.from(Array(8).keys())
 
 const PokerContainer: React.FC = () => {
   const classes = useStyles()
