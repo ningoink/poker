@@ -1,4 +1,6 @@
-export const getAllCards = () => Promise.resolve({
+import { PokerList } from "../constant"
+
+export const getPoker = () => Promise.resolve({
   success: true,
-  data: [],
+  data: PokerList,
 })
