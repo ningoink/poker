@@ -1,6 +1,7 @@
 import React from 'react'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
+import { PokerCard } from '../interface'
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -13,7 +14,7 @@ const useStyles = makeStyles((theme: Theme) =>
     cardWrap: {
       height: '100%',
       width: '100%',
-      backgroundColor: 'green',
+      backgroundColor: '#fff',
       position: 'absolute',
       textAlign: 'center',
     },
@@ -22,7 +23,7 @@ const useStyles = makeStyles((theme: Theme) =>
       width: '20%',
       left: 0,
       display: 'inline-block',
-      backgroundColor: 'red',
+      backgroundColor: '#fff',
       position: 'absolute',
     },
     rightSidebarWrap: {
@@ -30,76 +31,85 @@ const useStyles = makeStyles((theme: Theme) =>
       width: '20%',
       right: 0,
       display: 'inline-block',
-      backgroundColor: 'red',
+      backgroundColor: '#fff',
       position: 'absolute',
     },
     bodyWrap: {
       height: '100%',
       width: '60%',
       display: 'inline-block',
-      backgroundColor: 'blue',
+      backgroundColor: '#fff',
       position: 'absolute',
       left: '20%',
     },
     bodyImg: {
       height: '50%',
       width: '100%',
-      backgroundColor: 'grey',
+      backgroundColor: '#fff',
     },
     bodyMilestone: {
       height: '25%',
       width: '100%',
-      backgroundColor: 'orange',
+      backgroundColor: '#fff',
     },
     bodyQuote: {
       height: '25%',
       width: '100%',
-      backgroundColor: 'yellow',
+      backgroundColor: '#fff',
     },
   }),
 )
 
-type Props = {
-  direction: string
+interface PokerItemProps {
+  poker: PokerCard
 }
 
-const SidebarWrap: React.FC<Props> = ({ direction }) => {
+enum SidebarType {
+  Left, Right
+}
+
+interface SidebarProps {
+  direction: SidebarType
+}
+
+const SidebarWrap: React.FC<PokerItemProps & SidebarProps> = ({ poker, direction }) => {
   const classes = useStyles()
 
   return (
-    <div className={direction === "left" ? classes.leftSidebarWrap : classes.rightSidebarWrap}>
-      { direction }
+    <div className={direction === SidebarType.Left ? classes.leftSidebarWrap : classes.rightSidebarWrap}>
+      {JSON.stringify(poker.key)}
+      {JSON.stringify(poker.type)}
     </div>
   )
 }
 
-const BodyWrap: React.FC = () => {
+const BodyWrap: React.FC<PokerItemProps> = ({ poker }) => {
   const classes = useStyles()
 
   return (
     <div className={classes.bodyWrap}>
       <div className={classes.bodyImg}>
-        img
+        {JSON.stringify(poker.avatar)}
       </div>
       <div className={classes.bodyMilestone}>
-        minestone
+        {JSON.stringify(poker.milestone)}
       </div>
       <div className={classes.bodyQuote}>
-        quote
+        {JSON.stringify(poker.quote)}
       </div>
     </div>
   )
 }
 
-const PokerItem: React.FC = () => {
+const PokerItem: React.FC<PokerItemProps> = ({ poker }) => {
   const classes = useStyles()
 
   return (
     <Card className={classes.root}>
       <Card className={classes.cardWrap}>
-        <SidebarWrap direction="left" />
-        <BodyWrap />
-        <SidebarWrap direction="right" />
+        <SidebarWrap poker={poker} direction={SidebarType.Left} />
+        <BodyWrap poker={poker}/>
+        <SidebarWrap poker={poker} direction={SidebarType.Right} />
       </Card>
     </Card>
   )
