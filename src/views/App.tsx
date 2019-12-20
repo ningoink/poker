@@ -6,7 +6,7 @@ import './App.css'
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      display: 'flex',
+      fontSize: '12px',
     },
   }),
 )

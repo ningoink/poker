@@ -26,7 +26,6 @@ const useStyles = makeStyles((theme: Theme) =>
       [theme.breakpoints.up('lg')]: {
         padding: '0 32px',
       },
-
     },
   }),
 )
