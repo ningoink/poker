@@ -1,6 +1,7 @@
 import React from 'react'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
+import Grid from '@material-ui/core/Grid'
 import { PokerCard } from '../interfaces'
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -20,7 +21,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     leftSidebarWrap: {
       height: '100%',
-      width: '20%',
+      width: '17%',
       left: 0,
       display: 'inline-block',
       backgroundColor: '#fff',
@@ -28,7 +29,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     rightSidebarWrap: {
       height: '100%',
-      width: '20%',
+      width: '17%',
       right: 0,
       display: 'inline-block',
       backgroundColor: '#fff',
@@ -36,26 +37,49 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     bodyWrap: {
       height: '100%',
-      width: '60%',
-      display: 'inline-block',
+      width: '66%',
       backgroundColor: '#fff',
       position: 'absolute',
-      left: '20%',
+      left: '17%',
+      display: 'flex',
+      flexFlow: 'column',
     },
     bodyImg: {
-      height: '50%',
+      flex: '1 1 auto',
       width: '100%',
       backgroundColor: '#fff',
     },
     bodyMilestone: {
-      height: '25%',
+      flex: '0 1 auto',
       width: '100%',
       backgroundColor: '#fff',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      minHeight: '48px',
+      marginBottom: '10px',
+    },
+    bodyGridWrap: {
+      width: '100%',
+      display: 'table',
+    },
+    year: {
+      fontWeight: 'bold',
+    },
+    textLeft: {
+      textAlign: 'left',
+    },
+    textRight: {
+      textAlign: 'right',
     },
     bodyQuote: {
-      height: '25%',
+      flex: '0 1 auto',
       width: '100%',
       backgroundColor: '#fff',
+      display: 'flex',
+      alignItems: 'center',
+      minHeight: '36px',
+      marginBottom: '10px',
     },
   }),
 )
@@ -77,8 +101,8 @@ const SidebarWrap: React.FC<PokerItemProps & SidebarProps> = ({ poker, direction
 
   return (
     <div className={direction === SidebarType.Left ? classes.leftSidebarWrap : classes.rightSidebarWrap}>
-      {JSON.stringify(poker.key)}
       {JSON.stringify(poker.type)}
+      {JSON.stringify(poker.key)}
     </div>
   )
 }
@@ -92,7 +116,18 @@ const BodyWrap: React.FC<PokerItemProps> = ({ poker }) => {
         {JSON.stringify(poker.avatar)}
       </div>
       <div className={classes.bodyMilestone}>
-        {JSON.stringify(poker.milestone)}
+        <div className={classes.bodyGridWrap}>
+          {poker.milestone.map((ms, index) => (
+            <Grid container spacing={1} key={index}>
+              <Grid item xs={3} className={`${classes.textRight} ${classes.year}`}>
+                {ms.year}:
+              </Grid>
+              <Grid item xs={9} className={classes.textLeft}>
+                <span>{ms.event}</span>
+              </Grid>
+            </Grid>
+          ))}
+        </div>
       </div>
       <div className={classes.bodyQuote}>
         {JSON.stringify(poker.quote)}
