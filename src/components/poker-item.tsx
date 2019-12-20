@@ -1,7 +1,7 @@
 import React from 'react'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
-import { PokerCard } from '../interface'
+import { PokerCard } from '../interfaces'
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({

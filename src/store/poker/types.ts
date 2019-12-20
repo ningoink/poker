@@ -1,4 +1,4 @@
-import { PokerCard } from '../../interface'
+import { PokerCard } from '../../interfaces'
 
 export interface PokerCardState {
   list: PokerCard[]
