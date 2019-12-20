@@ -2,7 +2,7 @@ import { PokerCard, CardKey, CardSuit, UserGender } from "../../interfaces"
 
 const JokerCards: PokerCard[] = [
   {
-    key: CardKey.Joker,
+    key: CardKey.BigJoker,
     type: CardSuit.Jokers,
     coder: "David Heinemeier Hansson",
     gender: UserGender.Male,
@@ -13,7 +13,7 @@ const JokerCards: PokerCard[] = [
     quote: "If you`re not working on your best idea right now, you`re doing it wrong."
   },
   {
-    key: CardKey.Joker,
+    key: CardKey.LittleJoker,
     type: CardSuit.Jokers,
     coder: "Satoshi Nakamoto",
     gender: UserGender.Other,
