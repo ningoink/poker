@@ -1,5 +1,5 @@
 import { REQUEST_POKER_CARD_ACTION, RECEIVE_POKER_CARD_ACTION } from './types'
-import { PokerCard } from '../../interface'
+import { PokerCard } from '../../interfaces'
 import { Dispatch } from 'redux'
 import { getPoker } from '../../api'
 

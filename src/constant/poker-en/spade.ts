@@ -1,4 +1,4 @@
-import { PokerCard, CardKey, CardSuit, UserGender } from "../../interface"
+import { PokerCard, CardKey, CardSuit, UserGender } from "../../interfaces"
 
 const SpadeCards: PokerCard[] = [
   {
