@@ -1,7 +1,7 @@
 import React from 'react'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
 import Container from '@material-ui/core/Container'
-import PokerContainer from './poker-container'
+import PokerContainer from '../../components/poker-container'
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({

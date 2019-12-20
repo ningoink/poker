@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { connect } from 'react-redux'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
+import { fetchPoker } from '../store/poker/actions'
+import { AppState } from '../store'
+import { PokerCardState } from '../store/poker/types'
 import PokerItem from './poker-item'
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -27,10 +31,14 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 )
 
-const PokerCards = Array.from(Array(8).keys())
+type PokerContainerProps = { pokerReducer: PokerCardState } & { fetchPoker: () => void }
 
-const PokerContainer: React.FC = () => {
+const PokerContainerWithRedux: React.FC<PokerContainerProps> = ({ pokerReducer, fetchPoker }) => {
   const classes = useStyles()
+
+  useEffect(() => {
+    fetchPoker()
+  }, [])
 
   return (
     <Grid
@@ -38,18 +46,23 @@ const PokerContainer: React.FC = () => {
       className={classes.gridRoot}
       spacing={1}
     >
-      {PokerCards.map((value) => (
+      {pokerReducer.list.map((poker, index) => (
         <Grid
           container
           alignItems="center"
           item xs={6} sm={4} md={3} lg={2}
-          key={value}
+          key={index}
         >
-          <PokerItem />
+          <PokerItem poker={poker}/>
         </Grid>
       ))}
     </Grid>
   )
 }
+
+const PokerContainer = connect((
+  { pokerReducer }: AppState) => ({ pokerReducer }),
+  { fetchPoker }
+)(PokerContainerWithRedux)
 
 export default PokerContainer
