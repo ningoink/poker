@@ -1,5 +1,5 @@
 export enum CardKey {
-  Joker, Ace, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King
+  BigJoker, LittleJoker, Ace, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King,
 }
 
 export enum CardSuit {
