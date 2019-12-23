@@ -26,6 +26,7 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
+    "serialize-javascript": "^2.1.2",
     "typescript": "3.7.2"
   },
   "scripts": {
