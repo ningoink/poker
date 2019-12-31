@@ -1,7 +1,7 @@
 ## V0.1.0
 
 * 50a7e90, [:rocket:] Write README intro and etc, ready to v0.1.0
-* a5db114, [:art:]:Add picture link to each poker
+* a5db114, [:art:] Add picture link to each poker
 * 00620e8, [:sparkles:]\(logo): Import ningo temp logo, and related favicons
 * 5d7cc48, [:construction_worker:]\(gh-pages): Deploy react-based poker-coder into github pages
 * 552546d, [:construction_worker:] Solve github Dependabot security alerts by install serialize-javascript
