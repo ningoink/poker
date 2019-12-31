@@ -1,4 +1,4 @@
-import { PokerCard, CardKey, CardSuit, UserGender } from "../../interfaces"
+import { PokerCard, CardKey, CardSuit, UserGender } from "../../../interfaces"
 
 const HeartCards: PokerCard[] = [
   {
@@ -6,7 +6,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "Grace Hopper",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Grace_Hopper.jpg",
     milestone: [
       { year: 1945, event: "Coined the term \"bug\"" },
       { year: 1952, event: "Invented the compiler" },
@@ -19,7 +19,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "Andrew Ng",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Andrew_Ng.jpg",
     milestone: [
       { year: 2007, event: "Lead the Stanford Artificial Intelligence Robot Project" },
       { year: 2008, event: "Lead the Stanford Autonomous Helicopter Project" },
@@ -30,9 +30,9 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Three,
     type: CardSuit.Hearts,
-    coder: "Corrine Yu",
+    coder: "Corrinne Yu",
     gender: UserGender.Female,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Corrinne_Yu.jpg",
     milestone: [
       { year: 1990, event: "Wrote code for the US Space Shuttle program" },
       { year: 1994, event: "Created her own 3D graphics engines" },
@@ -45,7 +45,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "Brian Fox",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Brian_Fox.png",
     milestone: [
       { year: 1989, event: "Created the GNU Bash Shell" },
       { year: 2008, event: "Co-authored the OVC open sourrce voting system" },
@@ -55,9 +55,9 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Five,
     type: CardSuit.Hearts,
-    coder: "Guido Van Rossem",
+    coder: "Guido Van Rossum",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Guido_Van_Rossum.jpg",
     milestone: [
       { year: 1990, event: "Created Python" },
     ],
@@ -68,7 +68,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "Larry Wall",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Larry_Wall.jpg",
     milestone: [
       { year: 1985, event: "Created Patch, a precursor to Git" },
       { year: 1987, event: "Created the Perl programming language" },
@@ -80,7 +80,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "Bob Frankston & Dan Bricklin",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Dan_Bricklin_And_Bob_Frankston.jpg",
     milestone: [
       { year: 1979, event: "Created VisiCalc, the first spreadsheet program" },
     ],
@@ -91,7 +91,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "Adele Goldberg",
     gender: UserGender.Female,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Adele_Goldberg.jpg",
     milestone: [
       { year: 1973, event: "Developed concepts used for Graphic User Interfaces" },
       { year: 1980, event: "Helped develop the Smalltalk-80 programming language" },
@@ -103,7 +103,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "Brian Kernighan",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Brian_Kernighan.png",
     milestone: [
       { year: 1970, event: "Co-created the Unix operating system" },
       { year: 1972, event: "Created the first \"Hello World\" program" },
@@ -116,7 +116,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "Donald Knuth",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Donald_Knuth.jpg",
     milestone: [
       { year: 1973, event: "Published The Art of Computer programming" },
       { year: 1978, event: "Designed the TeX tyypesetting system" },
@@ -128,7 +128,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "Judea Pearl",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Judea_Pearl.png",
     milestone: [
       { year: 1970, event: "Created the probabilistic approach to artifical intelligence" },
       { year: 1985, event: "Invented Bayesian Networks" },
@@ -140,7 +140,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "John McCarthy",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/John_McCarthy.jpg",
     milestone: [
       { year: 1955, event: "Coined the term \"Artifical Intelligence\"" },
       { year: 1958, event: "Created the LISP high-level programming language" },
@@ -152,7 +152,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "Maurice Wilkes",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Maurice_Wilkes.png",
     milestone: [
       { year: 1949, event: "A good part of the remainder of my life was going to be spent in finding errors in my own programs" },
     ],
