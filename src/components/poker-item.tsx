@@ -2,7 +2,7 @@ import React from 'react'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
 import Grid from '@material-ui/core/Grid'
-// import CardMedia from '@material-ui/core/CardMedia'
+import CardMedia from '@material-ui/core/CardMedia'
 import CardIconSvgSwitcher from './card-icon-svg'
 import { PokerCard, CardKeyAlias, CardSuitAlias } from '../interfaces'
 
@@ -166,11 +166,11 @@ const BodyWrap: React.FC<PokerItemProps> = ({ poker }) => {
   return (
     <div className={classes.bodyWrap}>
       <div className={classes.bodyImg}>
-        {/* <CardMedia
+        <CardMedia
           className={classes.bodyMedia}
-          image={poker.avatar}
+          image={poker.picture}
           title={poker.coder}
-        /> */}
+        />
       </div>
       <div className={classes.bodyMilestone}>
         <div className={classes.bodyGridWrap}>

@@ -1,4 +1,4 @@
-import { PokerList } from "../constant"
+import { PokerList } from "../poker"
 import { PokerCard } from "../interfaces"
 import { AppServerResponseData } from '../interfaces/commons'
 
