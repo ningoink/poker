@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b0c06f72dcb6167cc9820a578bc70b0",
+    "revision": "f43e8702577d1d3c4480ae0e970dd441",
     "url": "/poker-coder/index.html"
   },
   {
-    "revision": "245e39be8bb342276265",
+    "revision": "dfc1d74acb820471d3b9",
     "url": "/poker-coder/static/css/main.29aa563d.chunk.css"
   },
   {
-    "revision": "560879fb3b3be8c591a8",
-    "url": "/poker-coder/static/js/2.63a7559c.chunk.js"
+    "revision": "db39a9e326c045390eb1",
+    "url": "/poker-coder/static/js/2.5b83b2ab.chunk.js"
   },
   {
-    "revision": "245e39be8bb342276265",
-    "url": "/poker-coder/static/js/main.91b15b54.chunk.js"
+    "revision": "dfc1d74acb820471d3b9",
+    "url": "/poker-coder/static/js/main.b0e320c9.chunk.js"
   },
   {
     "revision": "e762851786422a641627",
