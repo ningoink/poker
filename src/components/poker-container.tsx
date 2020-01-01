@@ -49,7 +49,7 @@ const PokerContainerWithRedux: React.FC<PokerContainerProps> = ({ pokerReducer, 
         <Grid
           container
           alignItems="center"
-          item xs={6} sm={4} md={3}
+          item xs={12} sm={6} md={3}
           key={index}
         >
           <PokerItem poker={poker}/>
