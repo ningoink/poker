@@ -154,9 +154,9 @@ const HeartCards: PokerCard[] = [
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Maurice_Wilkes.png",
     milestone: [
-      { year: 1949, event: "A good part of the remainder of my life was going to be spent in finding errors in my own programs" },
+      { year: 1949, event: "Built EDSAC, the first computer with an internally stored program" },
     ],
-    quote: "."
+    quote: "A good part of the remainder of my life was going to be spent in finding errors in my own programs."
   },
 ]
 
