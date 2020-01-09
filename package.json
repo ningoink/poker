@@ -28,6 +28,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "serialize-javascript": "^2.1.2",
+    "source-map-explorer": "^2.2.1",
     "typescript": "3.7.2"
   },
   "scripts": {
@@ -36,7 +37,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "eslintConfig": {
     "extends": "react-app"

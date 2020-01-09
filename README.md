@@ -20,16 +20,13 @@ This project was bootstrapped with [Create React App][create-react-app].
 
 With [npm][npm] & [yarn][yarn] installed:
 
-* Run this for installing all the dependencies.
-
-```
-yarn install
-```
-
-* Run this for launching app in local environment.
-
-```
-yarn run start
+```bash
+# Run this for installing all the dependencies.
+$ yarn install
+# Run this for launching app in local environment.
+$ yarn start
+# Analyzes JavaScript bundles using the source maps.
+$ yarn run analyze
 ```
 
 [create-react-app]: https://github.com/facebook/create-react-app
