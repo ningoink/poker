@@ -10,7 +10,7 @@ const JokerCards: PokerCard[] = [
     milestone: [
       { year: 2003, event: "Created Ruby on Rails" },
     ],
-    quote: "If you`re not working on your best idea right now, you`re doing it wrong."
+    quote: "If you're not working on your best idea right now, you're doing it wrong."
   },
   {
     key: CardKey.LittleJoker,
