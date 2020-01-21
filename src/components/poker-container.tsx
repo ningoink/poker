@@ -30,14 +30,13 @@ const useStyles = makeStyles((theme: Theme) =>
     gridItem: {
       'box-shadow': '0 2px 12px 0 rgba(0, 0, 0, .1)',
       'border-radius': '5px',
-      transform: 'scale(.8) translateX(4%) rotateZ(calc(-1 * (11 * 1deg)))',
+      // transform: 'scale(.8) translateX(4%) rotateZ(calc(-1 * (11 * 1deg)))',
       cursor: 'pointer',
       '&:hover': {
         'box-shadow': '0 2px 12px 0 #B8B8B8',
-        transform: 'scale(.8) translateX(4%)',
+        // transform: 'scale(.8) translateX(4%)',
       },
     },
-
   }),
 )
 
