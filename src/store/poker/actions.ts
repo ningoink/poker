@@ -22,4 +22,3 @@ export const fetchPoker = () => (dispatch: Dispatch) => {
     .then(({ data }) => dispatch(receivePoker(data)))
     .catch(() => dispatch(receivePoker([])))
 }
-
