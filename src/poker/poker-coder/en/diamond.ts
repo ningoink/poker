@@ -104,7 +104,7 @@ const DiamondCards: PokerCard[] = [
       { year: 1983, event: "Invented the Transmission Control Protocol" },
       { year: 1983, event: "Invented the Internet Protocol" },
     ],
-    quote: "You don't have to be young to learrn about technology. You have to feel young. - Vint Cerf"
+    quote: "You don't have to be young to learn about technology. You have to feel young. - Vint Cerf"
   },
   {
     key: CardKey.Ten,

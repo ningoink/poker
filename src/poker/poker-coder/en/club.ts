@@ -80,7 +80,7 @@ const ClubCards: PokerCard[] = [
       { year: 1977, event: "Designed the Apple II, the first mass-market microcomputer" },
       { year: 1987, event: "Invented the universal remote control" },
     ],
-    quote: "In the end, I hope there's a little note somewhere taht says I designed a good computer."
+    quote: "In the end, I hope there's a little note somewhere that says I designed a good computer."
   },
   {
     key: CardKey.Eight,
@@ -92,7 +92,7 @@ const ClubCards: PokerCard[] = [
       { year: 1977, event: "Developed XMODEM, a simple file transfer protocol" },
       { year: 1978, event: "Co-founder of CBBS bulletin board, first bulletin board brought online" },
     ],
-    quote: "I patterned the software after the cork board and push-pins type of bulletin board, and coined the term \"BBS for it\"."
+    quote: "I patterned the software after the cork board and push-pins type of bulletin board, and coined the term \"BBS\" for it."
   },
   {
     key: CardKey.Nine,
