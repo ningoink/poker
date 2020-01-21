@@ -4,7 +4,7 @@ const SpadeCards: PokerCard[] = [
   {
     key: CardKey.Ace,
     type: CardSuit.Spades,
-    coder: "Ada Lovelace",
+    coder: "埃达·洛夫莱斯",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Ada_Lovelace.jpg",
     milestone: [
@@ -16,7 +16,7 @@ const SpadeCards: PokerCard[] = [
   {
     key: CardKey.Two,
     type: CardSuit.Spades,
-    coder: "Linus Torvalds",
+    coder: "林纳斯·托瓦兹",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Linus_Torvalds.jpeg",
     milestone: [
@@ -28,7 +28,7 @@ const SpadeCards: PokerCard[] = [
   {
     key: CardKey.Three,
     type: CardSuit.Spades,
-    coder: "Bjarne Stroustrup",
+    coder: "比雅尼·斯特劳斯特鲁普",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Bjarne_Stroustrup.jpg",
     milestone: [
@@ -39,7 +39,7 @@ const SpadeCards: PokerCard[] = [
   {
     key: CardKey.Four,
     type: CardSuit.Spades,
-    coder: "Patricia Sellinger",
+    coder: "帕特里夏·塞林格",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Patricia_Sellinger.jpeg",
     milestone: [
@@ -50,7 +50,7 @@ const SpadeCards: PokerCard[] = [
   {
     key: CardKey.Five,
     type: CardSuit.Spades,
-    coder: "Tim Berners-Lee",
+    coder: "蒂姆·伯纳斯-李",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Tim_Berners-Lee.jpg",
     milestone: [
@@ -61,7 +61,7 @@ const SpadeCards: PokerCard[] = [
   {
     key: CardKey.Six,
     type: CardSuit.Spades,
-    coder: "Richard Stallman",
+    coder: "理查德·斯托曼",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Richard_Stallman.jpg",
     milestone: [
@@ -74,7 +74,7 @@ const SpadeCards: PokerCard[] = [
   {
     key: CardKey.Seven,
     type: CardSuit.Spades,
-    coder: "Raymond Kurzweil",
+    coder: "雷蒙德·库茨魏尔",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Raymond_Kurzweil.jpg",
     milestone: [
@@ -86,7 +86,7 @@ const SpadeCards: PokerCard[] = [
   {
     key: CardKey.Eight,
     type: CardSuit.Spades,
-    coder: "Ken Thompson",
+    coder: "肯·汤普逊",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Ken_Thompson.jpg",
     milestone: [
@@ -99,7 +99,7 @@ const SpadeCards: PokerCard[] = [
   {
     key: CardKey.Nine,
     type: CardSuit.Spades,
-    coder: "Ray Tomlinson",
+    coder: "雷·汤姆林森",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Ray_Tomlinson.jpg",
     milestone: [
@@ -122,7 +122,7 @@ const SpadeCards: PokerCard[] = [
   {
     key: CardKey.Jack,
     type: CardSuit.Spades,
-    coder: "Edsger Dijkstra",
+    coder: "艾兹赫尔·戴克斯特拉",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Edsger_Dijkstra.jpg",
     milestone: [
@@ -134,7 +134,7 @@ const SpadeCards: PokerCard[] = [
   {
     key: CardKey.Queen,
     type: CardSuit.Spades,
-    coder: "Douglas Engelbart",
+    coder: "道格拉斯·恩格尔巴特",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Douglas_Engelbart.jpg",
     milestone: [
@@ -146,7 +146,7 @@ const SpadeCards: PokerCard[] = [
   {
     key: CardKey.King,
     type: CardSuit.Spades,
-    coder: "Konrad Zuse",
+    coder: "康拉德·楚泽",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Konrad_Zuse.jpg",
     milestone: [

@@ -4,7 +4,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.Ace,
     type: CardSuit.Clubs,
-    coder: "Ida Rhodes",
+    coder: "艾达·罗兹",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Ida_Rhodes.jpeg",
     milestone: [
@@ -16,7 +16,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.Two,
     type: CardSuit.Clubs,
-    coder: "Bram Cohen",
+    coder: "布莱姆·科亨",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Bram_Cohen.jpg",
     milestone: [
@@ -27,7 +27,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.Three,
     type: CardSuit.Clubs,
-    coder: "Brendan Eich",
+    coder: "布兰登·艾克",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Brendan_Eich.jpg",
     milestone: [
@@ -38,7 +38,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.Four,
     type: CardSuit.Clubs,
-    coder: "Sophie Wilson",
+    coder: "索菲·威尔逊",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Sophie_Wilson.jpg",
     milestone: [
@@ -50,7 +50,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.Five,
     type: CardSuit.Clubs,
-    coder: "James Gosling",
+    coder: "詹姆斯·高斯林",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/James_Gosling.jpg",
     milestone: [
@@ -61,7 +61,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.Six,
     type: CardSuit.Clubs,
-    coder: "Bill Joy",
+    coder: "比尔·乔伊",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Bill_Joy.jpg",
     milestone: [
@@ -73,7 +73,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.Seven,
     type: CardSuit.Clubs,
-    coder: "Steve Wozniak",
+    coder: "斯蒂夫·沃兹尼亚克",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Steve_Wozniak.jpg",
     milestone: [
@@ -85,7 +85,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.Eight,
     type: CardSuit.Clubs,
-    coder: "Ward Christensen",
+    coder: "沃德·克莉史汀森",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Ward_Christensen.jpg",
     milestone: [
@@ -97,7 +97,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.Nine,
     type: CardSuit.Clubs,
-    coder: "Dennis Ritchie",
+    coder: "丹尼斯·里奇",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Dennis_Ritchie.jpg",
     milestone: [
@@ -109,7 +109,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.Ten,
     type: CardSuit.Clubs,
-    coder: "Dana Ulery",
+    coder: "达娜",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Dana_Ulery.jpg",
     milestone: [
@@ -121,7 +121,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.Jack,
     type: CardSuit.Clubs,
-    coder: "Frances Allen",
+    coder: "法兰·艾伦",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Frances_Allen.jpg",
     milestone: [
@@ -132,7 +132,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.Queen,
     type: CardSuit.Clubs,
-    coder: "Marvin Minsky",
+    coder: "马文·李·明斯基",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Marvin_Minsky.jpg",
     milestone: [
@@ -144,7 +144,7 @@ const ClubCards: PokerCard[] = [
   {
     key: CardKey.King,
     type: CardSuit.Clubs,
-    coder: "Alan Turing",
+    coder: "艾伦·图灵",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Alan_Kay.png",
     milestone: [

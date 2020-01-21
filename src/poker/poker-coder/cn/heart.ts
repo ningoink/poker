@@ -4,8 +4,8 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Ace,
     type: CardSuit.Hearts,
-    coder: "Grace Hopper",
-    gender: UserGender.Male,
+    coder: "格蕾丝·赫柏",
+    gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Grace_Hopper.jpg",
     milestone: [
       { year: 1945, event: "首创术语“bug”" },
@@ -17,7 +17,7 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Two,
     type: CardSuit.Hearts,
-    coder: "Andrew Ng",
+    coder: "吴恩达",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Andrew_Ng.jpg",
     milestone: [
@@ -30,7 +30,7 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Three,
     type: CardSuit.Hearts,
-    coder: "Corrinne Yu",
+    coder: "余国荔",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Corrinne_Yu.jpg",
     milestone: [
@@ -43,7 +43,7 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Four,
     type: CardSuit.Hearts,
-    coder: "Brian Fox",
+    coder: "布赖恩·福克斯",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Brian_Fox.png",
     milestone: [
@@ -55,7 +55,7 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Five,
     type: CardSuit.Hearts,
-    coder: "Guido Van Rossum",
+    coder: "吉多·范罗苏姆",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Guido_Van_Rossum.jpg",
     milestone: [
@@ -66,7 +66,7 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Six,
     type: CardSuit.Hearts,
-    coder: "Larry Wall",
+    coder: "拉里·沃尔",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Larry_Wall.jpg",
     milestone: [
@@ -78,7 +78,7 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Seven,
     type: CardSuit.Hearts,
-    coder: "Bob Frankston & Dan Bricklin",
+    coder: "鲍勃·弗兰克斯顿＆丹·布里克林",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Dan_Bricklin_And_Bob_Frankston.jpg",
     milestone: [
@@ -89,7 +89,7 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Eight,
     type: CardSuit.Hearts,
-    coder: "Adele Goldberg",
+    coder: "阿黛尔·戈德堡",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Adele_Goldberg.jpg",
     milestone: [
@@ -101,7 +101,7 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Nine,
     type: CardSuit.Hearts,
-    coder: "Brian Kernighan",
+    coder: "布莱恩·柯林汉",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Brian_Kernighan.png",
     milestone: [
@@ -114,7 +114,7 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Ten,
     type: CardSuit.Hearts,
-    coder: "Donald Knuth",
+    coder: "高德纳",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Donald_Knuth.jpg",
     milestone: [
@@ -126,7 +126,7 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Jack,
     type: CardSuit.Hearts,
-    coder: "Judea Pearl",
+    coder: "朱迪亚·珀尔",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Judea_Pearl.png",
     milestone: [
@@ -138,7 +138,7 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.Queen,
     type: CardSuit.Hearts,
-    coder: "John McCarthy",
+    coder: "约翰·麦卡锡",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/John_McCarthy.jpg",
     milestone: [
@@ -150,7 +150,7 @@ const HeartCards: PokerCard[] = [
   {
     key: CardKey.King,
     type: CardSuit.Hearts,
-    coder: "Maurice Wilkes",
+    coder: "莫里斯·威尔克斯",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Maurice_Wilkes.png",
     milestone: [

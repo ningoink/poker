@@ -4,7 +4,7 @@ const JokerCards: PokerCard[] = [
   {
     key: CardKey.BigJoker,
     type: CardSuit.Jokers,
-    coder: "David Heinemeier Hansson",
+    coder: "大卫·海尼梅尔·汉森",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/David_Heinemeier_Hansson.jpg",
     milestone: [
@@ -15,7 +15,7 @@ const JokerCards: PokerCard[] = [
   {
     key: CardKey.LittleJoker,
     type: CardSuit.Jokers,
-    coder: "Satoshi Nakamoto",
+    coder: "中本聪",
     gender: UserGender.Other,
     picture: "http://q3259ne1t.bkt.clouddn.com/Satoshi_Nakamoto.jpg",
     milestone: [

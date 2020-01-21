@@ -4,7 +4,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.Ace,
     type: CardSuit.Diamonds,
-    coder: "Dorothy Vaughan",
+    coder: "多萝西·沃恩",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Dorothy_Vaughan.png",
     milestone: [
@@ -16,7 +16,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.Two,
     type: CardSuit.Diamonds,
-    coder: "Parisa Tabriz",
+    coder: "帕瑞萨·大不里士",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Parisa_Tabriz.jpg",
     milestone: [
@@ -28,7 +28,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.Three,
     type: CardSuit.Diamonds,
-    coder: "Yukihiro Matsumoto",
+    coder: "松本行弘",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Yukihiro_Matsumoto.jpeg",
     milestone: [
@@ -39,7 +39,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.Four,
     type: CardSuit.Diamonds,
-    coder: "Stephen Wolfram",
+    coder: "史蒂芬·沃尔夫勒姆",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Stephen_Wolfram.jpg",
     milestone: [
@@ -51,7 +51,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.Five,
     type: CardSuit.Diamonds,
-    coder: "Alexey Pajitnov",
+    coder: "阿列克谢·帕基特诺夫",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Alexey_Pajitnov.jpg",
     milestone: [
@@ -62,7 +62,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.Six,
     type: CardSuit.Diamonds,
-    coder: "Phil Zimmermann",
+    coder: "菲尔·齐默尔曼",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Phil_Zimmermann.jpg",
     milestone: [
@@ -73,7 +73,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.Seven,
     type: CardSuit.Diamonds,
-    coder: "Radia Perlman",
+    coder: "拉迪亚·珀尔曼",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Radia_Perlman.jpg",
     milestone: [
@@ -84,7 +84,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.Eight,
     type: CardSuit.Diamonds,
-    coder: "Andrew Yao",
+    coder: "姚期智",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Andrew_Yao.jpeg",
     milestone: [
@@ -97,7 +97,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.Nine,
     type: CardSuit.Diamonds,
-    coder: "Vint Cerf & Bob Kahn",
+    coder: "温特·瑟夫 & 鲍勃·卡恩",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Vint_Cerf_And_Bob_Kahn.png",
     milestone: [
@@ -109,7 +109,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.Ten,
     type: CardSuit.Diamonds,
-    coder: "Alan Kay",
+    coder: "艾伦·凯",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Alan_Kay.png",
     milestone: [
@@ -120,7 +120,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.Jack,
     type: CardSuit.Diamonds,
-    coder: "Margaret Hamilton",
+    coder: "玛格丽特·汉密尔顿",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Margaret_Hamilton.jpg",
     milestone: [
@@ -131,7 +131,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.Queen,
     type: CardSuit.Diamonds,
-    coder: "Jean E. Sammet",
+    coder: "让·萨米特",
     gender: UserGender.Female,
     picture: "http://q3259ne1t.bkt.clouddn.com/Jean_E._Sammet.png",
     milestone: [
@@ -143,7 +143,7 @@ const DiamondCards: PokerCard[] = [
   {
     key: CardKey.King,
     type: CardSuit.Diamonds,
-    coder: "Vera Molnar",
+    coder: "维拉·莫尔纳",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Vera_Molnar.png",
     milestone: [
