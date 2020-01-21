@@ -11,7 +11,7 @@ const ClubCards: PokerCard[] = [
       { year: 1940, event: "从事于“数学表项目”" },
       { year: 1950, event: "和 Betty Holberton 一起为 UNIVAC-I 设计了 C-10 语言" },
     ],
-    quote: "Whenever I see anyone reading a copy of Science Fiction, I gloat silently over the fact that I get my thrills not vicariously but through actual experience."
+    quote: "每当有人阅读科幻小说时，我会因自己有实际经验而默默地激动。"
   },
   {
     key: CardKey.Two,
@@ -22,7 +22,7 @@ const ClubCards: PokerCard[] = [
     milestone: [
       { year: 2002, event: "创造了 BitTorrent 对等协议" },
     ],
-    quote: "You get so tired of having your work die. I just wanted to make something that people would actually use."
+    quote: "人们会对工作白忙活而感到身心疲惫，而我只会做一些人们会实际使用的东西。"
   },
   {
     key: CardKey.Three,
@@ -33,7 +33,7 @@ const ClubCards: PokerCard[] = [
     milestone: [
       { year: 1995, event: "创造了 JavaScript 语言" },
     ],
-    quote: "If the web can be evolved to include the missing APIs and have better performance, developers won't need to go beyond the web."
+    quote: "如果网络可以发展为分析出缺少的 API 并具有更好的性能，则开发人员将无需工作在网络之外。"
   },
   {
     key: CardKey.Four,
@@ -45,7 +45,7 @@ const ClubCards: PokerCard[] = [
       { year: 1978, event: "设计了橡子微型计算机" },
       { year: 1981, event: "开发了 BBC Basic 语言" },
     ],
-    quote: "I'm the rare engineer who says the answer is obviously Z. It makes me a dangerous person to employ in IT but a useful one."
+    quote: "我是那种会直接表明解决方案有多明显的少数工程师，这使我成为从事 IT 工作的危险人物，但我却是一个有用的人。"
   },
   {
     key: CardKey.Five,
@@ -56,7 +56,7 @@ const ClubCards: PokerCard[] = [
     milestone: [
       { year: 1995, event: "创造了 Java 语言" },
     ],
-    quote: "People think of security as a noun, something you go buy. In reality, it's an abstract concept like happiness."
+    quote: "人们将安全性视为一个可购买的名词，但实际上这是一个像幸福一样地抽象概念。"
   },
   {
     key: CardKey.Six,
@@ -68,7 +68,7 @@ const ClubCards: PokerCard[] = [
       { year: 1976, event: "创造了 VI 编辑器" },
       { year: 1978, event: "创造了 Unix 下的 C Shell" },
     ],
-    quote: "We have to encourage the future we want instead of trying to prevent the future war fear."
+    quote: "我们必须鼓励我们想要的未来，而不是试图防止陷入对未来战争的恐惧。"
   },
   {
     key: CardKey.Seven,
@@ -80,7 +80,7 @@ const ClubCards: PokerCard[] = [
       { year: 1977, event: "设计了第一台大众市场的微型计算机 Apple II" },
       { year: 1987, event: "发明了通用遥控器" },
     ],
-    quote: "In the end, I hope there's a little note somewhere taht says I designed a good computer."
+    quote: "最后，我希望会在某处说明我设计的是一台好的计算机。"
   },
   {
     key: CardKey.Eight,
@@ -92,7 +92,7 @@ const ClubCards: PokerCard[] = [
       { year: 1977, event: "开发了一种简单的文件传输协议 XMODEM" },
       { year: 1978, event: "第一个公告板 CBBS 共同创始人" },
     ],
-    quote: "I patterned the software after the cork board and push-pins type of bulletin board, and coined the term \"BBS for it\"."
+    quote: "我根据软木板和图钉类型的公告板来设计软件，并创造了术语“BBS”。"
   },
   {
     key: CardKey.Nine,
@@ -104,7 +104,7 @@ const ClubCards: PokerCard[] = [
       { year: 1970, event: "合作创建了 Unix 操作系统" },
       { year: 1978, event: "设计了 C 语言" },
     ],
-    quote: "Unix is basically a simple operating system, but you have to be a genius to understand the simplicity."
+    quote: "Unix 基本上是一个简单的操作系统，但是你必须是个天才才能真正理解它的简单性。"
   },
   {
     key: CardKey.Ten,
@@ -116,7 +116,7 @@ const ClubCards: PokerCard[] = [
       { year: 1961, event: "早期的科学计算应用先锋" },
       { year: 1971, event: "建立了电子数据交换标准" },
     ],
-    quote: "Knowledge management is about using information to formulate the right problem in the first place, a tremendous and often unrecognized challenge in itself."
+    quote: "知识管理首先是要利用信息来提出正确的问题，这本身就是一个巨大且通常是无法识别的挑战。"
   },
   {
     key: CardKey.Jack,
@@ -127,7 +127,7 @@ const ClubCards: PokerCard[] = [
     milestone: [
       { year: 1962, event: "为最早的超级计算机之一 IBM Stretch 设计了编译器" },
     ],
-    quote: "A very big step was not only identifying parallelism, but identifying useful parallelism."
+    quote: "一个非常重要的步骤不仅是确定出并行性，而且是确定出有用的并行性。"
   },
   {
     key: CardKey.Queen,
@@ -139,7 +139,7 @@ const ClubCards: PokerCard[] = [
       { year: 1951, event: "发明了神经网络和第一台自学机器" },
       { year: 1963, event: "发明了第一台头戴式图形显示器" },
     ],
-    quote: "No computer has ever been designed that is ever aware of what it's doing; but most of the time, we aren't either."
+    quote: "计算机并不会意识到自己在做什么，但其实大多数情况下，我们人类也一样。"
   },
   {
     key: CardKey.King,
@@ -152,7 +152,7 @@ const ClubCards: PokerCard[] = [
       { year: 1939, event: "开发出可以破解纳粹加密的计算机" },
       { year: 1950, event: "发明了图灵测试" },
     ],
-    quote: "We can only see a short distance ahead, but we can see plenty there that needs to be done."
+    quote: "我们只能看到前方很短的距离，但是我们可以看到那里还有很多工作要做。"
   },
 ]
 

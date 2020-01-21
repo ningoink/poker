@@ -12,7 +12,7 @@ const HeartCards: PokerCard[] = [
       { year: 1952, event: "发明了编译器" },
       { year: 1959, event: "合作开发了 COBOL" },
     ],
-    quote: "When we need greater computer power, the answer is not to get a bigger computer, but to build systems of computers and operate them in parallel."
+    quote: "当我们需要更强的计算能力时，解决方法不应是获得一个更厉害的计算机，而是构建一个多计算机系统并能并行操作它们。"
   },
   {
     key: CardKey.Two,
@@ -25,7 +25,7 @@ const HeartCards: PokerCard[] = [
       { year: 2008, event: "领导斯坦福自治直升机项目" },
       { year: 2011, event: "上线线上机器学习课程" },
     ],
-    quote: "Today I actually have a hard time thinking of an industry that I don't think AI will transform in the next several years."
+    quote: "今天，我实际上很难想到一个未来几年内不会被 AI 改变的行业。"
   },
   {
     key: CardKey.Three,
@@ -38,7 +38,7 @@ const HeartCards: PokerCard[] = [
       { year: 1994, event: "为自己创建了 3D 图形引擎" },
       { year: 2008, event: "领导 Halo 游戏系列的开发" },
     ],
-    quote: "Sometimes I cuddle with my code. I grab some code print-outs, surround myself with a few books, hold onto a legal pad, curl up on a couch with a blanket and start reading and scribbling away."
+    quote: "我常常会抱紧我的代码——我会抓取一些代码输出日志，用几本书围着自己，握住合适的垫子，卷着毯子躺在沙发上，开始阅读和涂鸦。"
   },
   {
     key: CardKey.Four,
@@ -50,7 +50,7 @@ const HeartCards: PokerCard[] = [
       { year: 1989, event: "创造了 GNU 的 Bash Shell" },
       { year: 2008, event: "合作开发了 OVC 开源投票系统" },
     ],
-    quote: "I try hard to not 'work' Instead. I try to stay focused on why I'm doing what I do, so that I can truly enjoy the sense of satisfaction when I am finished."
+    quote: "我会尽量不去为了工作而工作，而会试图专注于思考我为什么要做这件事，这样才能在完成工作后体会到满足感。"
   },
   {
     key: CardKey.Five,
@@ -61,7 +61,7 @@ const HeartCards: PokerCard[] = [
     milestone: [
       { year: 1990, event: "创造了 Python 语言" },
     ],
-    quote: "Python is an experiment in how much freedom programmers need. Too much freedom and nobody can read another's code; too little and expressiveness is endangered."
+    quote: "Python 是程序员需要多少自由度的实验。自由度太大，没有人可以阅读别人的代码；太少了，表现力受到了威胁。"
   },
   {
     key: CardKey.Six,
@@ -73,7 +73,7 @@ const HeartCards: PokerCard[] = [
       { year: 1985, event: "创建了 Git 的前身 Patch" },
       { year: 1987, event: "创建了 Perl 语言" },
     ],
-    quote: "The only reason I've managed to run this open source project is that I have learned to delegate even the delegation to other people."
+    quote: "我设法运行此开源项目的唯一原因是，我学会了将委托委派给其他人。"
   },
   {
     key: CardKey.Seven,
@@ -84,7 +84,7 @@ const HeartCards: PokerCard[] = [
     milestone: [
       { year: 1979, event: "创造了第一个电子表格程序 VisiCalc" },
     ],
-    quote: "In a good system, just doing what you normally would do to help yourself helps everybody. - Dan Bricklin"
+    quote: "在一个好的系统中，只要做平常会帮助自己的事情，就会对每个人都有帮助。——丹·布里克林"
   },
   {
     key: CardKey.Eight,
@@ -96,7 +96,7 @@ const HeartCards: PokerCard[] = [
       { year: 1973, event: "提出用于图形用户界面的概念" },
       { year: 1980, event: "合作开发了 Smalltalk-80 语言" },
     ],
-    quote: "Don't ask whether you can do something, but how to do it."
+    quote: "不要问你是否可以做某事，请直接思考要怎么做。"
   },
   {
     key: CardKey.Nine,
@@ -109,7 +109,7 @@ const HeartCards: PokerCard[] = [
       { year: 1972, event: "编写了第一个 “Hello World” 程序" },
       { year: 1977, event: "合作发明了 Awk 语言" },
     ],
-    quote: "Don't comment bad code-rewrite it."
+    quote: "不要过多议论错误的代码，请重写它。"
   },
   {
     key: CardKey.Ten,
@@ -121,7 +121,7 @@ const HeartCards: PokerCard[] = [
       { year: 1973, event: "出版了《计算机编程艺术》" },
       { year: 1978, event: "设计了 TeX 类型设置系统" },
     ],
-    quote: "Science is what we understand well enough to explain to a computer. Art is everything else we do."
+    quote: "科学是我们足够了解并能解释给计算机的知识，艺术是剩下能做的一切。"
   },
   {
     key: CardKey.Jack,
@@ -133,7 +133,7 @@ const HeartCards: PokerCard[] = [
       { year: 1970, event: "创建了人工智能的概率方法" },
       { year: 1985, event: "发明了贝叶斯网络" },
     ],
-    quote: "The surest kind of knowledge is what you construct yourself."
+    quote: "最可靠的知识需要你的亲自构建。"
   },
   {
     key: CardKey.Queen,
@@ -145,7 +145,7 @@ const HeartCards: PokerCard[] = [
       { year: 1955, event: "提出了术语“人工智能”" },
       { year: 1958, event: "创建了 Lisp 语言" },
     ],
-    quote: "Everyone needs computer programming. It will be the way we speak to the servants."
+    quote: "每个人都需要拥有编程思维，这将会是我们与计算机说话的方式。"
   },
   {
     key: CardKey.King,
@@ -156,7 +156,7 @@ const HeartCards: PokerCard[] = [
     milestone: [
       { year: 1949, event: "打造了第一台具有内部存储程序的计算机 EDSAC" },
     ],
-    quote: "A good part of the remainder of my life was going to be spent in finding errors in my own programs."
+    quote: "我一生中的大部分时间都将花在寻找自己程序中的错误上。"
   },
 ]
 

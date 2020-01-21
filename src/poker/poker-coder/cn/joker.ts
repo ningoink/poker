@@ -10,7 +10,7 @@ const JokerCards: PokerCard[] = [
     milestone: [
       { year: 2003, event: "创造了 Ruby on Rails" },
     ],
-    quote: "If you're not working on your best idea right now, you're doing it wrong."
+    quote: "如果你不立即践行你的最佳创意，那么你一定会与之擦肩而过。"
   },
   {
     key: CardKey.LittleJoker,
@@ -22,7 +22,7 @@ const JokerCards: PokerCard[] = [
       { year: 2008, event: "发明了区块链" },
       { year: 2008, event: "设计了比特币" },
     ],
-    quote: "With e-currency based on cryptographic proof, without the need to trust a third party middle-man, money can be secure and transactions effortless."
+    quote: "使用基于秘钥的电子货币，资金可以安全且方便地进行交易，同时无需信任第三方中间商。"
   }
 ]
 

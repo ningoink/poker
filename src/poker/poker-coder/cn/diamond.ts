@@ -11,7 +11,7 @@ const DiamondCards: PokerCard[] = [
       { year: 1943, event: "计算出了美国太空计划的飞行轨迹" },
       { year: 1961, event: "教员工行 FORTRAN 编程" },
     ],
-    quote: "I Changed What I could, and what I couldn't, I endured."
+    quote: "我改变了我所能做的，并克服了做不了的。"
   },
   {
     key: CardKey.Two,
@@ -23,7 +23,7 @@ const DiamondCards: PokerCard[] = [
       { year: 2016, event: "监督 Google Chrome 的安全性" },
       { year: 2018, event: "成立了安全倡导者会议" },
     ],
-    quote: "It's often harder to consistently write secure code than it is to point out insecure code."
+    quote: "始终如一地编写安全代码要比指出不安全代码要困难得多。"
   },
   {
     key: CardKey.Three,
@@ -34,7 +34,7 @@ const DiamondCards: PokerCard[] = [
     milestone: [
       { year: 1995, event: "设计了 Ruby 语言" },
     ],
-    quote: "I believe consistency and orthogonality are tools of design, not the primary goal in design."
+    quote: "我相信一致性和正交性是设计的工具，而不是设计的主要目标。"
   },
   {
     key: CardKey.Four,
@@ -46,7 +46,7 @@ const DiamondCards: PokerCard[] = [
       { year: 1986, event: "开发了计算机代数系统 Mathematica" },
       { year: 1988, event: "开发了应答引擎 Wolfram Alpha" },
     ],
-    quote: "Could it be that some place out there in the computational universe, we might find our physical universe?"
+    quote: "在计算宇宙中的某个地方，可能存在着我们生存的这个物理宇宙吗？"
   },
   {
     key: CardKey.Five,
@@ -57,7 +57,7 @@ const DiamondCards: PokerCard[] = [
     milestone: [
       { year: 1984, event: "设计并开发了俄罗斯方块" },
     ],
-    quote: "Tetris had a very important role in breaking down ordinary people's inhibitions in front of computers."
+    quote: "俄罗斯方块在打破普通人在计算机面前的束缚方面起着非常重要的作用。"
   },
   {
     key: CardKey.Six,
@@ -68,7 +68,7 @@ const DiamondCards: PokerCard[] = [
     milestone: [
       { year: 1991, event: "创建了公共密钥加密程序 Pretty Good Privacy" },
     ],
-    quote: "If privacy is outlawed, only outlaws will have privacy."
+    quote: "如果隐私权被禁止，那只有非法者才具有隐私权。"
   },
   {
     key: CardKey.Seven,
@@ -79,7 +79,7 @@ const DiamondCards: PokerCard[] = [
     milestone: [
       { year: 1985, event: "设计了以太网的生成树协议" },
     ],
-    quote: "Start out with finding the right problem to solve."
+    quote: "从找到正确的问题开始解决问题。"
   },
   {
     key: CardKey.Eight,
@@ -92,7 +92,7 @@ const DiamondCards: PokerCard[] = [
       { year: 1979, event: "引入通信复杂性理论" },
       { year: 1982, event: "提出了姚的百万富翁问题" },
     ],
-    quote: "If you have something in mind, go ahead with it. Even if you don't make it to the end, you may yet make it further than others."
+    quote: "如果你有什么想法，请继续进行。即使你没有做到最后，也可能会比其他人做得更好。"
   },
   {
     key: CardKey.Nine,
@@ -104,7 +104,7 @@ const DiamondCards: PokerCard[] = [
       { year: 1983, event: "发明了传输控制协议" },
       { year: 1983, event: "发明了互联网协议" },
     ],
-    quote: "You don't have to be young to learrn about technology. You have to feel young. - Vint Cerf"
+    quote: "学习技术无关年龄，但你的心态必须年轻。 - 温特·瑟夫"
   },
   {
     key: CardKey.Ten,
@@ -115,7 +115,7 @@ const DiamondCards: PokerCard[] = [
     milestone: [
       { year: 1970, event: "率先使用了面向对象程序设计" },
     ],
-    quote: "The best way to predict the future is to invent it."
+    quote: "预测未来的最好方法是引领未来。"
   },
   {
     key: CardKey.Jack,
@@ -126,7 +126,7 @@ const DiamondCards: PokerCard[] = [
     milestone: [
       { year: 1969, event: "负责阿波罗登月任务的软件开发" },
     ],
-    quote: "Looking back, we were the luckiest people in the world. There was no choice but to be pioneers."
+    quote: "回顾过去，我们是世界上最幸运的人。我们别无选择，只能奋勇直上。"
   },
   {
     key: CardKey.Queen,
@@ -138,7 +138,7 @@ const DiamondCards: PokerCard[] = [
       { year: 1959, event: "合作开发了 COBOL 语言" },
       { year: 1962, event: "开发了 FORMAC 语言" },
     ],
-    quote: "At that point...there was relatively little discrimination against women because programmers were very scarce. And so it didn't matter whether you had three heads."
+    quote: "那时……由于程序员非常稀少，对女性的歧视相对较少。 因此，你是否拥有三个头都没关系。"
   },
   {
     key: CardKey.King,
@@ -150,7 +150,7 @@ const DiamondCards: PokerCard[] = [
       { year: 1959, event: "开始迭代组合图像" },
       { year: 1968, event: "开始基于几何形状和主题创建算法绘画" },
     ],
-    quote: "The machine, which is thought to be cold and inhuman, can help to realize what is most profound in a human being."
+    quote: "机器被认为是冷的和不人道的，但可以帮助人类探索最深奥的东西。"
   },
 ]
 
