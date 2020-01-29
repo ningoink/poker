@@ -1,4 +1,4 @@
-import { PokerCard, CardKey, CardSuit, UserGender } from "../../interfaces"
+import { PokerCard, CardKey, CardSuit, UserGender } from "../../../interfaces"
 
 const ClubCards: PokerCard[] = [
   {
@@ -6,10 +6,10 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Ida Rhodes",
     gender: UserGender.Female,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Ida_Rhodes.jpeg",
     milestone: [
       { year: 1940, event: "Worked on Mathematical Tables Project" },
-      { year: 1950, event: "Designed the C-10 programming language for the UMIVAC-I(with Betty Holberton)" },
+      { year: 1950, event: "Designed the C-10 programming language for the UNIVAC-I(with Betty Holberton)" },
     ],
     quote: "Whenever I see anyone reading a copy of Science Fiction, I gloat silently over the fact that I get my thrills not vicariously but through actual experience."
   },
@@ -18,7 +18,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Bram Cohen",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Bram_Cohen.jpg",
     milestone: [
       { year: 2002, event: "Created the BitTorrent peer-to-peer protocol" },
     ],
@@ -29,41 +29,41 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Brendan Eich",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Brendan_Eich.jpg",
     milestone: [
       { year: 1995, event: "Created JavaScript" },
     ],
-    quote: "If the web can be evolved to include the missing APIs and have better performance, developers won`t need to go beyond the web."
+    quote: "If the web can be evolved to include the missing APIs and have better performance, developers won't need to go beyond the web."
   },
   {
     key: CardKey.Four,
     type: CardSuit.Clubs,
     coder: "Sophie Wilson",
     gender: UserGender.Female,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Sophie_Wilson.jpg",
     milestone: [
       { year: 1978, event: "Designed the Acorn MicroComputer" },
       { year: 1981, event: "Developed BBC Basic programming language" },
     ],
-    quote: "I`m the rare engineer who says the answer is obviously Z. It makes me a dangerous person to employ in IT but a useful one."
+    quote: "I'm the rare engineer who says the answer is obviously Z. It makes me a dangerous person to employ in IT but a useful one."
   },
   {
     key: CardKey.Five,
     type: CardSuit.Clubs,
     coder: "James Gosling",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/James_Gosling.jpg",
     milestone: [
       { year: 1995, event: "Created Java" },
     ],
-    quote: "People think of security as a noun, something you go buy. In reality, it`s an abstract concept like happiness."
+    quote: "People think of security as a noun, something you go buy. In reality, it's an abstract concept like happiness."
   },
   {
     key: CardKey.Six,
     type: CardSuit.Clubs,
     coder: "Bill Joy",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Bill_Joy.jpg",
     milestone: [
       { year: 1976, event: "Created the vi editor" },
       { year: 1978, event: "Created the C shell for UNIX" },
@@ -75,31 +75,31 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Steve Wozniak",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Steve_Wozniak.jpg",
     milestone: [
       { year: 1977, event: "Designed the Apple II, the first mass-market microcomputer" },
       { year: 1987, event: "Invented the universal remote control" },
     ],
-    quote: "In the end, I hope there`s a little note somewhere taht says I designed a good computer."
+    quote: "In the end, I hope there's a little note somewhere that says I designed a good computer."
   },
   {
     key: CardKey.Eight,
     type: CardSuit.Clubs,
     coder: "Ward Christensen",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Ward_Christensen.jpg",
     milestone: [
       { year: 1977, event: "Developed XMODEM, a simple file transfer protocol" },
       { year: 1978, event: "Co-founder of CBBS bulletin board, first bulletin board brought online" },
     ],
-    quote: "I patterned the software after the cork board and push-pins type of bulletin board, and coined the term \"BBS for it\"."
+    quote: "I patterned the software after the cork board and push-pins type of bulletin board, and coined the term \"BBS\" for it."
   },
   {
     key: CardKey.Nine,
     type: CardSuit.Clubs,
     coder: "Dennis Ritchie",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Dennis_Ritchie.jpg",
     milestone: [
       { year: 1970, event: "Co-created the Unix operating system" },
       { year: 1978, event: "Designed the C programming language" },
@@ -111,7 +111,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Dana Ulery",
     gender: UserGender.Female,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Dana_Ulery.jpg",
     milestone: [
       { year: 1961, event: "Pioneered early scientific computing applications" },
       { year: 1971, event: "Established Electronic Data Interchange standards" },
@@ -123,7 +123,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Frances Allen",
     gender: UserGender.Female,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Frances_Allen.jpg",
     milestone: [
       { year: 1962, event: "Designed the compiler for the IBM Stretch, one of the first supercomputers." },
     ],
@@ -134,19 +134,19 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Marvin Minsky",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Marvin_Minsky.jpg",
     milestone: [
       { year: 1951, event: "Invented the neural network and the first self-learning machine" },
       { year: 1963, event: "Invented the first head-mounted graphical display" },
     ],
-    quote: "No computer has ever been designed that is ever aware of what it`s doing; but most of the time, we aren`t either."
+    quote: "No computer has ever been designed that is ever aware of what it's doing; but most of the time, we aren't either."
   },
   {
     key: CardKey.King,
     type: CardSuit.Clubs,
     coder: "Alan Turing",
     gender: UserGender.Male,
-    avatar: "",
+    picture: "http://q3259ne1t.bkt.clouddn.com/Alan_Kay.png",
     milestone: [
       { year: 1936, event: "Invented the Turing Machine" },
       { year: 1939, event: "Developed computers that could crack Nazi encryption" },

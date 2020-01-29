@@ -1,44 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Poker Coder
 
-## Available Scripts
+![][maintainability]
 
-In the project directory, you can run:
+## Hello Repo
 
-### `yarn start`
+> Inspired by *[Introducing Programmer Playing Cards - freeCodeCamp][programmer-cards]*.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is a poker card game repo but more than that.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![Poker Coder][poker-coder]
 
-### `yarn test`
+[programmer-cards]: https://www.freecodecamp.org/news/programmer-playing-cards
+[maintainability]: https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg
+[poker-coder]: http://q3259ne1t.bkt.clouddn.com/poker-coder.png
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Develop
 
-### `yarn build`
+This project was bootstrapped with [Create React App][create-react-app].
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+With [npm][npm] & [yarn][yarn] installed:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+# Run this for installing all the dependencies.
+$ yarn install
+# Run this for launching app in local environment.
+$ yarn start
+# Analyzes JavaScript bundles using the source maps.
+$ yarn run analyze
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[create-react-app]: https://github.com/facebook/create-react-app
+[npm]: https://npmjs.org/
+[Yarn]: https://yarnpkg.com/
 
-### `yarn eject`
+## Roadmap
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To be continued. Also see this repo issues [here](https://github.com/ningowood/poker-coder/issues).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contribute
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Let's make this repo better! If you're interested in helping, all contributions are welcome and appreciated.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Check out the [Contributing document](./CONTRIBUTING.md) for the details. Thanks!
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Copyright © 2020 NingoWood.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The content of this repository is bound by the following licenses:
+
+* The computer software is licensed under the [BSD-3-Clause](./LICENSE.md) license.
+* The learning resources in the /src/poker directory including their subdirectories thereon are licensed under the CC-BY-SA-4.0 license.

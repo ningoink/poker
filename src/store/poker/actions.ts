@@ -16,10 +16,9 @@ export const receivePoker = (list: PokerCard[]) => {
   }
 }
 
-export const fetchPoker = () => (dispatch: Dispatch) => {
+export const fetchPoker = (lng: string) => (dispatch: Dispatch) => {
   dispatch(requestPoker())
-  return getPoker()
+  return getPoker(lng)
     .then(({ data }) => dispatch(receivePoker(data)))
     .catch(() => dispatch(receivePoker([])))
 }
-

@@ -21,7 +21,7 @@ export interface PokerCard {
   type: CardSuit
   coder: string
   gender: UserGender
-  avatar: string
+  picture: string
   milestone: { year: number, event: string }[]
   quote: string
 }
