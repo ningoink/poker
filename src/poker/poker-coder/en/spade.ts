@@ -9,7 +9,7 @@ const SpadeCards: PokerCard[] = [
     picture: "http://q3259ne1t.bkt.clouddn.com/Ada_Lovelace.jpg",
     milestone: [
       { year: 1843, event: "Invented computer algorithms" },
-      { year: 1843, event: "Wrote the world`s first computer program" },
+      { year: 1843, event: "Wrote the world's first computer program" },
     ],
     quote: "The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform."
   },
@@ -117,7 +117,7 @@ const SpadeCards: PokerCard[] = [
       { year: 1961, event: "Designed interactive operating system LAP6 for the LINC" },
       { year: 1965, event: "First person to build and use a personal computer in the home." },
     ],
-    quote: "We had the quaint notion that software should be completely, absolutely free of bugs. Unfortunately it`s a notion that never really quite caught on."
+    quote: "We had the quaint notion that software should be completely, absolutely free of bugs. Unfortunately it's a notion that never really quite caught on."
   },
   {
     key: CardKey.Jack,

@@ -25,7 +25,7 @@ const HeartCards: PokerCard[] = [
       { year: 2008, event: "Lead the Stanford Autonomous Helicopter Project" },
       { year: 2011, event: "Online Machine Learning Course" },
     ],
-    quote: "Today I actually have a hard time thinking of an industry that I don`t think AI will transform in the next several years."
+    quote: "Today I actually have a hard time thinking of an industry that I don't think AI will transform in the next several years."
   },
   {
     key: CardKey.Three,
@@ -48,9 +48,9 @@ const HeartCards: PokerCard[] = [
     picture: "http://q3259ne1t.bkt.clouddn.com/Brian_Fox.png",
     milestone: [
       { year: 1989, event: "Created the GNU Bash Shell" },
-      { year: 2008, event: "Co-authored the OVC open sourrce voting system" },
+      { year: 2008, event: "Co-authored the OVC open source voting system" },
     ],
-    quote: "I try hard to not 'work' Instead. I try to stay focused on why I`m doing what I do, so that I can truly enjoy the sense of satisfaction when I am finished."
+    quote: "I try hard to not 'work' Instead. I try to stay focused on why I'm doing what I do, so that I can truly enjoy the sense of satisfaction when I am finished."
   },
   {
     key: CardKey.Five,
@@ -61,7 +61,7 @@ const HeartCards: PokerCard[] = [
     milestone: [
       { year: 1990, event: "Created Python" },
     ],
-    quote: "Python is an experiment in how much freedom programmers need. Too much freedom and nobody can read another`s code; too little and expressiveness is endangered."
+    quote: "Python is an experiment in how much freedom programmers need. Too much freedom and nobody can read another's code; too little and expressiveness is endangered."
   },
   {
     key: CardKey.Six,
@@ -73,7 +73,7 @@ const HeartCards: PokerCard[] = [
       { year: 1985, event: "Created Patch, a precursor to Git" },
       { year: 1987, event: "Created the Perl programming language" },
     ],
-    quote: "The only reason I`ve managed to run this open source project is that I have learned to delegate even the delegation to other people."
+    quote: "The only reason I've managed to run this open source project is that I have learned to delegate even the delegation to other people."
   },
   {
     key: CardKey.Seven,
@@ -96,7 +96,7 @@ const HeartCards: PokerCard[] = [
       { year: 1973, event: "Developed concepts used for Graphic User Interfaces" },
       { year: 1980, event: "Helped develop the Smalltalk-80 programming language" },
     ],
-    quote: "Don`t ask whether you can do something, but how to do it."
+    quote: "Don't ask whether you can do something, but how to do it."
   },
   {
     key: CardKey.Nine,
@@ -109,7 +109,7 @@ const HeartCards: PokerCard[] = [
       { year: 1972, event: "Created the first \"Hello World\" program" },
       { year: 1977, event: "Co-authored the AWK programming language" },
     ],
-    quote: "Don`t comment bad code-rewrite it."
+    quote: "Don't comment bad code-rewrite it."
   },
   {
     key: CardKey.Ten,
@@ -130,7 +130,7 @@ const HeartCards: PokerCard[] = [
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Judea_Pearl.png",
     milestone: [
-      { year: 1970, event: "Created the probabilistic approach to artifical intelligence" },
+      { year: 1970, event: "Created the probabilistic approach to artificial intelligence" },
       { year: 1985, event: "Invented Bayesian Networks" },
     ],
     quote: "The surest kind of knowledge is what you construct yourself."
@@ -142,7 +142,7 @@ const HeartCards: PokerCard[] = [
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/John_McCarthy.jpg",
     milestone: [
-      { year: 1955, event: "Coined the term \"Artifical Intelligence\"" },
+      { year: 1955, event: "Coined the term \"Artificial Intelligence\"" },
       { year: 1958, event: "Created the LISP high-level programming language" },
     ],
     quote: "Everyone needs computer programming. It will be the way we speak to the servants."
@@ -154,9 +154,9 @@ const HeartCards: PokerCard[] = [
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/Maurice_Wilkes.png",
     milestone: [
-      { year: 1949, event: "A good part of the remainder of my life was going to be spent in finding errors in my own programs" },
+      { year: 1949, event: "Built EDSAC, the first computer with an internally stored program" },
     ],
-    quote: "."
+    quote: "A good part of the remainder of my life was going to be spent in finding errors in my own programs."
   },
 ]
 

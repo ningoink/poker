@@ -4,25 +4,25 @@ const JokerCards: PokerCard[] = [
   {
     key: CardKey.BigJoker,
     type: CardSuit.Jokers,
-    coder: "David Heinemeier Hansson",
+    coder: "大卫·海尼梅尔·汉森",
     gender: UserGender.Male,
     picture: "http://q3259ne1t.bkt.clouddn.com/David_Heinemeier_Hansson.jpg",
     milestone: [
-      { year: 2003, event: "Created Ruby on Rails" },
+      { year: 2003, event: "创造了 Ruby on Rails" },
     ],
-    quote: "If you're not working on your best idea right now, you're doing it wrong."
+    quote: "如果你不立即践行你的最佳创意，那么你一定会与之擦肩而过。"
   },
   {
     key: CardKey.LittleJoker,
     type: CardSuit.Jokers,
-    coder: "Satoshi Nakamoto",
+    coder: "中本聪",
     gender: UserGender.Other,
     picture: "http://q3259ne1t.bkt.clouddn.com/Satoshi_Nakamoto.jpg",
     milestone: [
-      { year: 2008, event: "Invented Blockchain" },
-      { year: 2008, event: "Designed Bitcoin" },
+      { year: 2008, event: "发明了区块链" },
+      { year: 2008, event: "设计了比特币" },
     ],
-    quote: "With e-currency based on cryptographic proof, without the need to trust a third party middle-man, money can be secure and transactions effortless."
+    quote: "使用基于秘钥的电子货币，资金可以安全且方便地进行交易，同时无需信任第三方中间商。"
   }
 ]
 

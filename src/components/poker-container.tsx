@@ -2,8 +2,9 @@ import React, { useEffect } from 'react'
 import { connect } from 'react-redux'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
-import { fetchPoker } from '../store/poker/actions'
 import { AppState } from '../store'
+import { I18nState } from '../store/i18n/types'
+import { fetchPoker } from '../store/poker/actions'
 import { PokerCardState } from '../store/poker/types'
 import PokerItem from './poker-item'
 
@@ -28,27 +29,30 @@ const useStyles = makeStyles((theme: Theme) =>
       },
     },
     gridItem: {
-      'box-shadow': '0 2px 12px 0 rgba(0, 0, 0, .1)',
-      'border-radius': '5px',
-      transform: 'scale(.8) translateX(4%) rotateZ(calc(-1 * (11 * 1deg)))',
-      cursor: 'pointer',
-      '&:hover': {
-        'box-shadow': '0 2px 12px 0 #B8B8B8',
-        transform: 'scale(.8) translateX(4%)',
-      },
+      // cursor: 'pointer',
+      // 'box-shadow': '0 2px 12px 0 rgba(0, 0, 0, .1)',
+      // 'border-radius': '5px',
+      // transform: 'scale(.8) translateX(4%) rotateZ(calc(-1 * (11 * 1deg)))',
+      // '&:hover': {
+      //   'box-shadow': '0 2px 12px 0 #B8B8B8',
+      //   // transform: 'scale(.8) translateX(4%)',
+      // },
     },
-
   }),
 )
 
-type PokerContainerProps = { pokerReducer: PokerCardState } & { fetchPoker: () => void }
+type PokerContainerProps = { i18nReducer: I18nState } & { pokerReducer: PokerCardState } & { fetchPoker: (lng: string) => void }
 
-const PokerContainerWithRedux: React.FC<PokerContainerProps> = ({ pokerReducer, fetchPoker }) => {
+const WrappedPokerContainer: React.FC<PokerContainerProps> = ({ i18nReducer, pokerReducer, fetchPoker }) => {
   const classes = useStyles()
 
   useEffect(() => {
-    fetchPoker()
+    fetchPoker('en')
   }, [])
+
+  useEffect(() => {
+    fetchPoker(i18nReducer.lng)
+  }, [i18nReducer.lng])
 
   return (
     <Grid
@@ -72,8 +76,8 @@ const PokerContainerWithRedux: React.FC<PokerContainerProps> = ({ pokerReducer, 
 }
 
 const PokerContainer = connect((
-  { pokerReducer }: AppState) => ({ pokerReducer }),
-  { fetchPoker }
-)(PokerContainerWithRedux)
+  { i18nReducer, pokerReducer }: AppState) => ({ i18nReducer, pokerReducer }),
+  { fetchPoker },
+)(WrappedPokerContainer)
 
-export default PokerContainer
+export default (PokerContainer)

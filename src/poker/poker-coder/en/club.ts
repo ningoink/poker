@@ -9,7 +9,7 @@ const ClubCards: PokerCard[] = [
     picture: "http://q3259ne1t.bkt.clouddn.com/Ida_Rhodes.jpeg",
     milestone: [
       { year: 1940, event: "Worked on Mathematical Tables Project" },
-      { year: 1950, event: "Designed the C-10 programming language for the UMIVAC-I(with Betty Holberton)" },
+      { year: 1950, event: "Designed the C-10 programming language for the UNIVAC-I(with Betty Holberton)" },
     ],
     quote: "Whenever I see anyone reading a copy of Science Fiction, I gloat silently over the fact that I get my thrills not vicariously but through actual experience."
   },
@@ -33,7 +33,7 @@ const ClubCards: PokerCard[] = [
     milestone: [
       { year: 1995, event: "Created JavaScript" },
     ],
-    quote: "If the web can be evolved to include the missing APIs and have better performance, developers won`t need to go beyond the web."
+    quote: "If the web can be evolved to include the missing APIs and have better performance, developers won't need to go beyond the web."
   },
   {
     key: CardKey.Four,
@@ -45,7 +45,7 @@ const ClubCards: PokerCard[] = [
       { year: 1978, event: "Designed the Acorn MicroComputer" },
       { year: 1981, event: "Developed BBC Basic programming language" },
     ],
-    quote: "I`m the rare engineer who says the answer is obviously Z. It makes me a dangerous person to employ in IT but a useful one."
+    quote: "I'm the rare engineer who says the answer is obviously Z. It makes me a dangerous person to employ in IT but a useful one."
   },
   {
     key: CardKey.Five,
@@ -56,7 +56,7 @@ const ClubCards: PokerCard[] = [
     milestone: [
       { year: 1995, event: "Created Java" },
     ],
-    quote: "People think of security as a noun, something you go buy. In reality, it`s an abstract concept like happiness."
+    quote: "People think of security as a noun, something you go buy. In reality, it's an abstract concept like happiness."
   },
   {
     key: CardKey.Six,
@@ -80,7 +80,7 @@ const ClubCards: PokerCard[] = [
       { year: 1977, event: "Designed the Apple II, the first mass-market microcomputer" },
       { year: 1987, event: "Invented the universal remote control" },
     ],
-    quote: "In the end, I hope there`s a little note somewhere taht says I designed a good computer."
+    quote: "In the end, I hope there's a little note somewhere that says I designed a good computer."
   },
   {
     key: CardKey.Eight,
@@ -92,7 +92,7 @@ const ClubCards: PokerCard[] = [
       { year: 1977, event: "Developed XMODEM, a simple file transfer protocol" },
       { year: 1978, event: "Co-founder of CBBS bulletin board, first bulletin board brought online" },
     ],
-    quote: "I patterned the software after the cork board and push-pins type of bulletin board, and coined the term \"BBS for it\"."
+    quote: "I patterned the software after the cork board and push-pins type of bulletin board, and coined the term \"BBS\" for it."
   },
   {
     key: CardKey.Nine,
@@ -139,7 +139,7 @@ const ClubCards: PokerCard[] = [
       { year: 1951, event: "Invented the neural network and the first self-learning machine" },
       { year: 1963, event: "Invented the first head-mounted graphical display" },
     ],
-    quote: "No computer has ever been designed that is ever aware of what it`s doing; but most of the time, we aren`t either."
+    quote: "No computer has ever been designed that is ever aware of what it's doing; but most of the time, we aren't either."
   },
   {
     key: CardKey.King,

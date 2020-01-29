@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react'
-import AppDashboard from './app-dashboard'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
+import AppDashboard from './app-dashboard'
 import './App.css'
 
 const useStyles = makeStyles((theme: Theme) =>

@@ -1,14 +1,19 @@
-import JokerCards from './poker-coder/en/joker'
-import SpadeCards from './poker-coder/en/spade'
-import HeartCards from './poker-coder/en/heart'
-import ClubCards from './poker-coder/en/club'
-import DiamondCards from './poker-coder/en/diamond'
+import pokerList from './poker-coder/en'
+import pokerListCn from './poker-coder/cn'
 import { PokerCard } from '../interfaces'
 
-export const PokerList: PokerCard[] = [
-  ...JokerCards,
-  ...SpadeCards,
-  ...HeartCards,
-  ...ClubCards,
-  ...DiamondCards,
-]
+export const loadPokerCoderList = (lng: string) => {
+  let pList: PokerCard[] = []
+  switch(lng) {
+    case 'en':
+      pList = pokerList
+      break
+    case 'cn':
+      pList = pokerListCn
+      break
+    default:
+      pList = pokerList
+      break
+  }
+  return pList
+}
