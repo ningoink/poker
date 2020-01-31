@@ -1,4 +1,5 @@
 import { PokerCard, CardKey, CardSuit, UserGender } from "../../../interfaces"
+import { QINIU_CDN_URL } from "../../../config"
 
 const JokerCards: PokerCard[] = [
   {
@@ -6,7 +7,7 @@ const JokerCards: PokerCard[] = [
     type: CardSuit.Jokers,
     coder: "David Heinemeier Hansson",
     gender: UserGender.Male,
-    picture: "http://qiniu.ningo.cloud/David_Heinemeier_Hansson.jpg",
+    picture: QINIU_CDN_URL + "David_Heinemeier_Hansson.jpg",
     milestone: [
       { year: 2003, event: "Created Ruby on Rails" },
     ],
@@ -17,7 +18,7 @@ const JokerCards: PokerCard[] = [
     type: CardSuit.Jokers,
     coder: "Satoshi Nakamoto",
     gender: UserGender.Other,
-    picture: "http://qiniu.ningo.cloud/Satoshi_Nakamoto.jpg",
+    picture: QINIU_CDN_URL + "Satoshi_Nakamoto.jpg",
     milestone: [
       { year: 2008, event: "Invented Blockchain" },
       { year: 2008, event: "Designed Bitcoin" },

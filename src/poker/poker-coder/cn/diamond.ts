@@ -1,4 +1,5 @@
 import { PokerCard, CardKey, CardSuit, UserGender } from "../../../interfaces"
+import { QINIU_CDN_URL } from "../../../config"
 
 const DiamondCards: PokerCard[] = [
   {
@@ -6,7 +7,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "多萝西·沃恩",
     gender: UserGender.Female,
-    picture: "http://qiniu.ningo.cloud/Dorothy_Vaughan.png",
+    picture: QINIU_CDN_URL + "Dorothy_Vaughan.png",
     milestone: [
       { year: 1943, event: "计算出了美国太空计划的飞行轨迹" },
       { year: 1961, event: "教员工行 FORTRAN 编程" },
@@ -18,7 +19,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "帕瑞萨·大不里士",
     gender: UserGender.Female,
-    picture: "http://qiniu.ningo.cloud/Parisa_Tabriz.jpg",
+    picture: QINIU_CDN_URL + "Parisa_Tabriz.jpg",
     milestone: [
       { year: 2016, event: "监督 Google Chrome 的安全性" },
       { year: 2018, event: "成立了安全倡导者会议" },
@@ -30,7 +31,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "松本行弘",
     gender: UserGender.Male,
-    picture: "http://qiniu.ningo.cloud/Yukihiro_Matsumoto.jpeg",
+    picture: QINIU_CDN_URL + "Yukihiro_Matsumoto.jpeg",
     milestone: [
       { year: 1995, event: "设计了 Ruby 语言" },
     ],
@@ -41,7 +42,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "史蒂芬·沃尔夫勒姆",
     gender: UserGender.Male,
-    picture: "http://qiniu.ningo.cloud/Stephen_Wolfram.jpg",
+    picture: QINIU_CDN_URL + "Stephen_Wolfram.jpg",
     milestone: [
       { year: 1986, event: "开发了计算机代数系统 Mathematica" },
       { year: 1988, event: "开发了应答引擎 Wolfram Alpha" },
@@ -53,7 +54,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "阿列克谢·帕基特诺夫",
     gender: UserGender.Male,
-    picture: "http://qiniu.ningo.cloud/Alexey_Pajitnov.jpg",
+    picture: QINIU_CDN_URL + "Alexey_Pajitnov.jpg",
     milestone: [
       { year: 1984, event: "设计并开发了俄罗斯方块" },
     ],
@@ -64,7 +65,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "菲尔·齐默尔曼",
     gender: UserGender.Male,
-    picture: "http://qiniu.ningo.cloud/Phil_Zimmermann.jpg",
+    picture: QINIU_CDN_URL + "Phil_Zimmermann.jpg",
     milestone: [
       { year: 1991, event: "创建了公共密钥加密程序 Pretty Good Privacy" },
     ],
@@ -75,7 +76,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "拉迪亚·珀尔曼",
     gender: UserGender.Female,
-    picture: "http://qiniu.ningo.cloud/Radia_Perlman.jpg",
+    picture: QINIU_CDN_URL + "Radia_Perlman.jpg",
     milestone: [
       { year: 1985, event: "设计了以太网的生成树协议" },
     ],
@@ -86,7 +87,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "姚期智",
     gender: UserGender.Male,
-    picture: "http://qiniu.ningo.cloud/Andrew_Yao.jpeg",
+    picture: QINIU_CDN_URL + "Andrew_Yao.jpeg",
     milestone: [
       { year: 1997, event: "用极小定理提出姚的极小极大原理" },
       { year: 1979, event: "引入通信复杂性理论" },
@@ -99,7 +100,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "温特·瑟夫 & 鲍勃·卡恩",
     gender: UserGender.Male,
-    picture: "http://qiniu.ningo.cloud/Vint_Cerf_And_Bob_Kahn.png",
+    picture: QINIU_CDN_URL + "Vint_Cerf_And_Bob_Kahn.png",
     milestone: [
       { year: 1983, event: "发明了传输控制协议" },
       { year: 1983, event: "发明了互联网协议" },
@@ -111,7 +112,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "艾伦·凯",
     gender: UserGender.Male,
-    picture: "http://qiniu.ningo.cloud/Alan_Kay.png",
+    picture: QINIU_CDN_URL + "Alan_Kay.png",
     milestone: [
       { year: 1970, event: "率先使用了面向对象程序设计" },
     ],
@@ -122,7 +123,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "玛格丽特·汉密尔顿",
     gender: UserGender.Female,
-    picture: "http://qiniu.ningo.cloud/Margaret_Hamilton.jpg",
+    picture: QINIU_CDN_URL + "Margaret_Hamilton.jpg",
     milestone: [
       { year: 1969, event: "负责阿波罗登月任务的软件开发" },
     ],
@@ -133,7 +134,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "让·萨米特",
     gender: UserGender.Female,
-    picture: "http://qiniu.ningo.cloud/Jean_E._Sammet.png",
+    picture: QINIU_CDN_URL + "Jean_E._Sammet.png",
     milestone: [
       { year: 1959, event: "合作开发了 COBOL 语言" },
       { year: 1962, event: "开发了 FORMAC 语言" },
@@ -145,7 +146,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "维拉·莫尔纳",
     gender: UserGender.Male,
-    picture: "http://qiniu.ningo.cloud/Vera_Molnar.png",
+    picture: QINIU_CDN_URL + "Vera_Molnar.png",
     milestone: [
       { year: 1959, event: "开始迭代组合图像" },
       { year: 1968, event: "开始基于几何形状和主题创建算法绘画" },
