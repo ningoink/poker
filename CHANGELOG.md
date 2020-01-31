@@ -1,6 +1,6 @@
 ## V0.2.0 [2020-01-31]
 
-* 2922bb1, [:rocket:] Update READMD.md etc, ready to v0.2.0
+* b56b917, [:rocket:] Update READMD.md etc, ready to v0.2.0
 * c021472, [:sparkles:] Add toolbox and billboard ui and its content
 * 467cedf, [:construction_worker:] Add package @material-ui/lab
 * 629ded3, [:sparkles:]\(logo) Add Github corner to app root page
@@ -22,8 +22,8 @@
 * 611904c, [:lipstick:] Add poker css action like transform & box-shadow etc
 * b6adde0, [:lipstick:] optimize poker grid system for xs=12 & sm=6
 * 7b24973, [:hammer:]\(card): Fix wrong card info in heart King
-* e84c991, [:pencil:]\(changelog): Fix spelling mistakes
-* 4451c4d, [:pencil:]\(changelog): Add changelog by manual with git log command
+* e84c991, [:pencil:]\(changelog) Fix spelling mistakes
+* 4451c4d, [:pencil:]\(changelog) Add changelog by manual with git log command
 
 ## V0.1.0 [2019-12-31]
 
