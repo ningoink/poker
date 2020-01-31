@@ -6,7 +6,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Ada Lovelace",
     gender: UserGender.Female,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Ada_Lovelace.jpg",
+    picture: "http://qiniu.ningo.cloud/Ada_Lovelace.jpg",
     milestone: [
       { year: 1843, event: "Invented computer algorithms" },
       { year: 1843, event: "Wrote the world's first computer program" },
@@ -18,7 +18,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Linus Torvalds",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Linus_Torvalds.jpeg",
+    picture: "http://qiniu.ningo.cloud/Linus_Torvalds.jpeg",
     milestone: [
       { year: 1991, event: "Created the Linux operating system" },
       { year: 2005, event: "Created the Git Version control system" },
@@ -30,7 +30,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Bjarne Stroustrup",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Bjarne_Stroustrup.jpg",
+    picture: "http://qiniu.ningo.cloud/Bjarne_Stroustrup.jpg",
     milestone: [
       { year: 1985, event: "Created the C++ programming language" },
     ],
@@ -41,7 +41,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Patricia Sellinger",
     gender: UserGender.Female,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Patricia_Sellinger.jpeg",
+    picture: "http://qiniu.ningo.cloud/Patricia_Sellinger.jpeg",
     milestone: [
       { year: 1974, event: "Helped create System R, the first implementation of SQL" },
     ],
@@ -52,7 +52,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Tim Berners-Lee",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Tim_Berners-Lee.jpg",
+    picture: "http://qiniu.ningo.cloud/Tim_Berners-Lee.jpg",
     milestone: [
       { year: 1991, event: "Invented the World Wide Web" },
     ],
@@ -63,7 +63,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Richard Stallman",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Richard_Stallman.jpg",
+    picture: "http://qiniu.ningo.cloud/Richard_Stallman.jpg",
     milestone: [
       { year: 1983, event: "Developed the GNU operating system" },
       { year: 1985, event: "Founded the Free Software Foundation" },
@@ -76,7 +76,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Raymond Kurzweil",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Raymond_Kurzweil.jpg",
+    picture: "http://qiniu.ningo.cloud/Raymond_Kurzweil.jpg",
     milestone: [
       { year: 1974, event: "Invented omni-font optical character recognition" },
       { year: 1987, event: "Developed the first commercial text-to-speech synthesizer" },
@@ -88,7 +88,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Ken Thompson",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Ken_Thompson.jpg",
+    picture: "http://qiniu.ningo.cloud/Ken_Thompson.jpg",
     milestone: [
       { year: 1969, event: "Designed the B programming language" },
       { year: 1970, event: "Co-created the Unix operating" },
@@ -101,7 +101,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Ray Tomlinson",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Ray_Tomlinson.jpg",
+    picture: "http://qiniu.ningo.cloud/Ray_Tomlinson.jpg",
     milestone: [
       { year: 1971, event: "Invented email" },
     ],
@@ -112,7 +112,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Mary Allen Wilkes",
     gender: UserGender.Female,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Mary_Allen_Wilkes.jpeg",
+    picture: "http://qiniu.ningo.cloud/Mary_Allen_Wilkes.jpeg",
     milestone: [
       { year: 1961, event: "Designed interactive operating system LAP6 for the LINC" },
       { year: 1965, event: "First person to build and use a personal computer in the home." },
@@ -124,7 +124,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Edsger Dijkstra",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Edsger_Dijkstra.jpg",
+    picture: "http://qiniu.ningo.cloud/Edsger_Dijkstra.jpg",
     milestone: [
       { year: 1956, event: "Invented the Dijkstra Shortest-Path Algorithm" },
       { year: 1965, event: "Created the Dining Philosophers problem" },
@@ -136,7 +136,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Douglas Engelbart",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Douglas_Engelbart.jpg",
+    picture: "http://qiniu.ningo.cloud/Douglas_Engelbart.jpg",
     milestone: [
       { year: 1964, event: "Invented the mouse" },
       { year: 1973, event: "Helped invent the Graphic User Interface" },
@@ -148,7 +148,7 @@ const SpadeCards: PokerCard[] = [
     type: CardSuit.Spades,
     coder: "Konrad Zuse",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Konrad_Zuse.jpg",
+    picture: "http://qiniu.ningo.cloud/Konrad_Zuse.jpg",
     milestone: [
       { year: 1938, event: "Built the first binary computer" },
       { year: 1941, event: "Built the first programmable digital computer" },

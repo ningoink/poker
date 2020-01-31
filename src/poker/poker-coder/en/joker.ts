@@ -6,7 +6,7 @@ const JokerCards: PokerCard[] = [
     type: CardSuit.Jokers,
     coder: "David Heinemeier Hansson",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/David_Heinemeier_Hansson.jpg",
+    picture: "http://qiniu.ningo.cloud/David_Heinemeier_Hansson.jpg",
     milestone: [
       { year: 2003, event: "Created Ruby on Rails" },
     ],
@@ -17,7 +17,7 @@ const JokerCards: PokerCard[] = [
     type: CardSuit.Jokers,
     coder: "Satoshi Nakamoto",
     gender: UserGender.Other,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Satoshi_Nakamoto.jpg",
+    picture: "http://qiniu.ningo.cloud/Satoshi_Nakamoto.jpg",
     milestone: [
       { year: 2008, event: "Invented Blockchain" },
       { year: 2008, event: "Designed Bitcoin" },

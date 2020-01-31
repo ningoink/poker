@@ -6,7 +6,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "格蕾丝·赫柏",
     gender: UserGender.Female,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Grace_Hopper.jpg",
+    picture: "http://qiniu.ningo.cloud/Grace_Hopper.jpg",
     milestone: [
       { year: 1945, event: "首创术语“bug”" },
       { year: 1952, event: "发明了编译器" },
@@ -19,7 +19,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "吴恩达",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Andrew_Ng.jpg",
+    picture: "http://qiniu.ningo.cloud/Andrew_Ng.jpg",
     milestone: [
       { year: 2007, event: "领导斯坦福人工智能机器人项目" },
       { year: 2008, event: "领导斯坦福自治直升机项目" },
@@ -32,7 +32,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "余国荔",
     gender: UserGender.Female,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Corrinne_Yu.jpg",
+    picture: "http://qiniu.ningo.cloud/Corrinne_Yu.jpg",
     milestone: [
       { year: 1990, event: "为美国航天飞机计划编写代码" },
       { year: 1994, event: "为自己创建了 3D 图形引擎" },
@@ -45,7 +45,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "布赖恩·福克斯",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Brian_Fox.png",
+    picture: "http://qiniu.ningo.cloud/Brian_Fox.png",
     milestone: [
       { year: 1989, event: "创造了 GNU 的 Bash Shell" },
       { year: 2008, event: "合作开发了 OVC 开源投票系统" },
@@ -57,7 +57,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "吉多·范罗苏姆",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Guido_Van_Rossum.jpg",
+    picture: "http://qiniu.ningo.cloud/Guido_Van_Rossum.jpg",
     milestone: [
       { year: 1990, event: "创造了 Python 语言" },
     ],
@@ -68,7 +68,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "拉里·沃尔",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Larry_Wall.jpg",
+    picture: "http://qiniu.ningo.cloud/Larry_Wall.jpg",
     milestone: [
       { year: 1985, event: "创建了 Git 的前身 Patch" },
       { year: 1987, event: "创建了 Perl 语言" },
@@ -80,7 +80,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "鲍勃·弗兰克斯顿＆丹·布里克林",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Dan_Bricklin_And_Bob_Frankston.jpg",
+    picture: "http://qiniu.ningo.cloud/Dan_Bricklin_And_Bob_Frankston.jpg",
     milestone: [
       { year: 1979, event: "创造了第一个电子表格程序 VisiCalc" },
     ],
@@ -91,7 +91,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "阿黛尔·戈德堡",
     gender: UserGender.Female,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Adele_Goldberg.jpg",
+    picture: "http://qiniu.ningo.cloud/Adele_Goldberg.jpg",
     milestone: [
       { year: 1973, event: "提出用于图形用户界面的概念" },
       { year: 1980, event: "合作开发了 Smalltalk-80 语言" },
@@ -103,7 +103,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "布莱恩·柯林汉",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Brian_Kernighan.png",
+    picture: "http://qiniu.ningo.cloud/Brian_Kernighan.png",
     milestone: [
       { year: 1970, event: "合作开发了 Unix 操作系统" },
       { year: 1972, event: "编写了第一个 “Hello World” 程序" },
@@ -116,7 +116,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "高德纳",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Donald_Knuth.jpg",
+    picture: "http://qiniu.ningo.cloud/Donald_Knuth.jpg",
     milestone: [
       { year: 1973, event: "出版了《计算机编程艺术》" },
       { year: 1978, event: "设计了 TeX 类型设置系统" },
@@ -128,7 +128,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "朱迪亚·珀尔",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Judea_Pearl.png",
+    picture: "http://qiniu.ningo.cloud/Judea_Pearl.png",
     milestone: [
       { year: 1970, event: "创建了人工智能的概率方法" },
       { year: 1985, event: "发明了贝叶斯网络" },
@@ -140,7 +140,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "约翰·麦卡锡",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/John_McCarthy.jpg",
+    picture: "http://qiniu.ningo.cloud/John_McCarthy.jpg",
     milestone: [
       { year: 1955, event: "提出了术语“人工智能”" },
       { year: 1958, event: "创建了 Lisp 语言" },
@@ -152,7 +152,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "莫里斯·威尔克斯",
     gender: UserGender.Male,
-    picture: "http://q3259ne1t.bkt.clouddn.com/Maurice_Wilkes.png",
+    picture: "http://qiniu.ningo.cloud/Maurice_Wilkes.png",
     milestone: [
       { year: 1949, event: "打造了第一台具有内部存储程序的计算机 EDSAC" },
     ],
