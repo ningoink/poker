@@ -1,0 +1,15 @@
+{
+  "Welcome to React": "Welcome to React",
+  "Language": {
+    "EN": "English",
+    "CN": "简体中文"
+  },
+  "Collection": {
+    "POKER_CODER": "Poker Coder",
+    "POKER_SECOND": "Poker Second"
+  },
+  "billboard": {
+    "appWarningTitle": "Welcome to NingoWood's the home of Poker Coder!",
+    "appWarningBody": "If there are any problem like ui cannot fit your device, please tell us in our Github repo. And also we're happy to receive your code contribution!"
+  }
+}
