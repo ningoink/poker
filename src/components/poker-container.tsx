@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { connect } from 'react-redux'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
@@ -41,18 +41,14 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 )
 
-type PokerContainerProps = { i18nReducer: I18nState } & { pokerReducer: PokerCardState } & { fetchPoker: (lng: string) => void }
+type PokerContainerProps = { i18nReducer: I18nState } & { pokerReducer: PokerCardState } & { fetchPoker: (lng: string, collection: string) => void }
 
 const WrappedPokerContainer: React.FC<PokerContainerProps> = ({ i18nReducer, pokerReducer, fetchPoker }) => {
   const classes = useStyles()
 
   useEffect(() => {
-    fetchPoker('en')
-  }, [])
-
-  useEffect(() => {
-    fetchPoker(i18nReducer.lng)
-  }, [i18nReducer.lng])
+    fetchPoker(i18nReducer.lng, pokerReducer.collection)
+  }, [i18nReducer.lng, pokerReducer.collection])
 
   return (
     <Grid
