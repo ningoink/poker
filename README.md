@@ -12,7 +12,7 @@ This is a poker card game repo but more than that.
 
 [programmer-cards]: https://www.freecodecamp.org/news/programmer-playing-cards
 [maintainability]: https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg
-[poker-coder]: http://q3259ne1t.bkt.clouddn.com/poker-coder.png
+[poker-coder]: http://qiniu.ningo.cloud/poker-coder.png
 
 ## Develop
 
@@ -35,14 +35,13 @@ $ yarn run analyze
 
 ## Roadmap
 
-To be continued. Also see this repo issues [here](https://github.com/ningowood/poker-coder/issues).
+To be continued. Also see this repo milestone [here](https://github.com/ningowood/poker-coder/milestone).
 
 ## Contribute
 
 Let's make this repo better! If you're interested in helping, all contributions are welcome and appreciated.
 
 Check out the [Contributing document](./CONTRIBUTING.md) for the details. Thanks!
-
 ## License
 
 Copyright © 2020 NingoWood.
