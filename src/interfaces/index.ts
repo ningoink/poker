@@ -1,3 +1,9 @@
+export const POKER_CODER = 'POKER_CODER'
+export const POKER_SECOND = 'POKER_SECOND'
+
+export const EN = 'EN'
+export const CN = 'CN'
+
 export const CardKeyAlias = ['BigJoker', 'LittleJoker', 'A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
 
 export enum CardKey {

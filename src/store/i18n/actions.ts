@@ -1,13 +1,13 @@
 import { Dispatch } from 'redux'
-import { REQUEST_TOGGLE_LANGUAGE_ACTION } from './types'
+import { SET_LANGUAGE_ACTION } from './types'
 
-export const requestToggleLanguage = (lng: string) => {
+export const setLanguage = (lng: string) => {
   return {
-    type: REQUEST_TOGGLE_LANGUAGE_ACTION,
+    type: SET_LANGUAGE_ACTION,
     payload: { lng }
   }
 }
 
 export const toggleLanguage = (lng: string) => (dispatch: Dispatch) => {
-  return dispatch(requestToggleLanguage(lng))
+  return dispatch(setLanguage(lng))
 }

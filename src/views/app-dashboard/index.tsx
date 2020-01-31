@@ -1,11 +1,8 @@
 import React from 'react'
-import { connect } from 'react-redux'
-import { useTranslation } from 'react-i18next'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
 import Container from '@material-ui/core/Container'
-import { AppState } from '../../store'
-import { I18nState } from '../../store/i18n/types'
-import { toggleLanguage } from '../../store/i18n/actions'
+import ToolboxContainer from './toolbox'
+import BillboardContainer from './billboard'
 import PokerContainer from '../../components/poker-container'
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -22,29 +19,16 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 )
 
-type AppDashboardProps = { i18nReducer: I18nState } & { toggleLanguage: (lng: string) => void }
-
-const WrappedAppDashboard: React.FC<AppDashboardProps> = ({ i18nReducer, toggleLanguage }) => {
+const AppDashboard: React.FC = () => {
   const classes = useStyles()
-  const { i18n } = useTranslation()
-
-  const changeLanguage = (lng: string) => {
-    i18n.changeLanguage(lng)
-    toggleLanguage(lng)
-  }
 
   return (
     <Container className={classes.root}>
-      <button onClick={() => changeLanguage('cn')}>cn</button>
-      <button onClick={() => changeLanguage('en')}>en</button>
+      <BillboardContainer />
+      <ToolboxContainer />
       <PokerContainer />
     </Container>
   )
 }
-
-const AppDashboard = connect((
-  { i18nReducer }: AppState) => ({ i18nReducer }),
-  { toggleLanguage },
-)(WrappedAppDashboard)
 
 export default AppDashboard

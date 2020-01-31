@@ -1,0 +1,1 @@
+export const QINIU_CDN_URL = 'http://qiniu.ningo.cloud/'

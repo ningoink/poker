@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles'
+import GithubCorner from '../components/github-corner'
 import AppDashboard from './app-dashboard'
 import './App.css'
 
@@ -17,6 +18,7 @@ const App: React.FC = () => {
   return (
     <div className={ classes.root }>
       <Suspense fallback="loading">
+        <GithubCorner />
         <AppDashboard />
       </Suspense>
     </div>
