@@ -6,7 +6,7 @@ const JokerCards: PokerCard[] = [
     type: CardSuit.Jokers,
     coder: "BigJoker",
     gender: UserGender.Male,
-    picture: "http://qiniu.ningo.cloud/hylerrix.jpeg",
+    picture: "http://qiniu.ningo.cloud/ningo/hylerrix.jpeg",
     milestone: [
       { year: 2020, event: "NingoWood BigJoker" },
     ],
@@ -17,7 +17,7 @@ const JokerCards: PokerCard[] = [
     type: CardSuit.Jokers,
     coder: "LittleJoker",
     gender: UserGender.Other,
-    picture: "http://qiniu.ningo.cloud/hylerrix.jpeg",
+    picture: "http://qiniu.ningo.cloud/ningo/hylerrix.jpeg",
     milestone: [
       { year: 2020, event: "NingoWood LittleJoker" },
     ],

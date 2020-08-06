@@ -1,5 +1,5 @@
 import { PokerCard, CardKey, CardSuit, UserGender } from "../../../interfaces"
-import { QINIU_CDN_URL } from "../../../config"
+import { QINIU_CDN_POKER_URL } from "../../../config"
 
 const ClubCards: PokerCard[] = [
   {
@@ -7,7 +7,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "艾达·罗兹",
     gender: UserGender.Female,
-    picture: QINIU_CDN_URL + "Ida_Rhodes.jpeg",
+    picture: QINIU_CDN_POKER_URL + "ida_rhodes.jpeg",
     milestone: [
       { year: 1940, event: "从事于“数学表项目”" },
       { year: 1950, event: "和 Betty Holberton 一起为 UNIVAC-I 设计了 C-10 语言" },
@@ -19,7 +19,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "布莱姆·科亨",
     gender: UserGender.Male,
-    picture: QINIU_CDN_URL + "Bram_Cohen.jpg",
+    picture: QINIU_CDN_POKER_URL + "bram_cohen.jpg",
     milestone: [
       { year: 2002, event: "创造了 BitTorrent 对等协议" },
     ],
@@ -30,7 +30,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "布兰登·艾克",
     gender: UserGender.Male,
-    picture: QINIU_CDN_URL + "Brendan_Eich.jpg",
+    picture: QINIU_CDN_POKER_URL + "brendan_eich.jpg",
     milestone: [
       { year: 1995, event: "创造了 JavaScript 语言" },
     ],
@@ -41,7 +41,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "索菲·威尔逊",
     gender: UserGender.Female,
-    picture: QINIU_CDN_URL + "Sophie_Wilson.jpg",
+    picture: QINIU_CDN_POKER_URL + "sophie_wilson.jpg",
     milestone: [
       { year: 1978, event: "设计了橡子微型计算机" },
       { year: 1981, event: "开发了 BBC Basic 语言" },
@@ -53,7 +53,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "詹姆斯·高斯林",
     gender: UserGender.Male,
-    picture: QINIU_CDN_URL + "James_Gosling.jpg",
+    picture: QINIU_CDN_POKER_URL + "james_gosling.jpg",
     milestone: [
       { year: 1995, event: "创造了 Java 语言" },
     ],
@@ -64,7 +64,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "比尔·乔伊",
     gender: UserGender.Male,
-    picture: QINIU_CDN_URL + "Bill_Joy.jpg",
+    picture: QINIU_CDN_POKER_URL + "bill_joy.jpg",
     milestone: [
       { year: 1976, event: "创造了 VI 编辑器" },
       { year: 1978, event: "创造了 Unix 下的 C Shell" },
@@ -76,7 +76,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "斯蒂夫·沃兹尼亚克",
     gender: UserGender.Male,
-    picture: QINIU_CDN_URL + "Steve_Wozniak.jpg",
+    picture: QINIU_CDN_POKER_URL + "steve_wozniak.jpg",
     milestone: [
       { year: 1977, event: "设计了第一台大众市场的微型计算机 Apple II" },
       { year: 1987, event: "发明了通用遥控器" },
@@ -88,7 +88,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "沃德·克莉史汀森",
     gender: UserGender.Male,
-    picture: QINIU_CDN_URL + "Ward_Christensen.jpg",
+    picture: QINIU_CDN_POKER_URL + "ward_christensen.jpg",
     milestone: [
       { year: 1977, event: "开发了一种简单的文件传输协议 XMODEM" },
       { year: 1978, event: "第一个公告板 CBBS 共同创始人" },
@@ -100,7 +100,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "丹尼斯·里奇",
     gender: UserGender.Male,
-    picture: QINIU_CDN_URL + "Dennis_Ritchie.jpg",
+    picture: QINIU_CDN_POKER_URL + "dennis_ritchie.jpg",
     milestone: [
       { year: 1970, event: "合作创建了 Unix 操作系统" },
       { year: 1978, event: "设计了 C 语言" },
@@ -112,7 +112,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "达娜",
     gender: UserGender.Female,
-    picture: QINIU_CDN_URL + "Dana_Ulery.jpg",
+    picture: QINIU_CDN_POKER_URL + "dana_ulery.jpg",
     milestone: [
       { year: 1961, event: "早期的科学计算应用先锋" },
       { year: 1971, event: "建立了电子数据交换标准" },
@@ -124,7 +124,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "法兰·艾伦",
     gender: UserGender.Female,
-    picture: QINIU_CDN_URL + "Frances_Allen.jpg",
+    picture: QINIU_CDN_POKER_URL + "frances_allen.jpg",
     milestone: [
       { year: 1962, event: "为最早的超级计算机之一 IBM Stretch 设计了编译器" },
     ],
@@ -135,7 +135,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "马文·李·明斯基",
     gender: UserGender.Male,
-    picture: QINIU_CDN_URL + "Marvin_Minsky.jpg",
+    picture: QINIU_CDN_POKER_URL + "marvin_minsky.jpg",
     milestone: [
       { year: 1951, event: "发明了神经网络和第一台自学机器" },
       { year: 1963, event: "发明了第一台头戴式图形显示器" },
@@ -147,7 +147,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "艾伦·图灵",
     gender: UserGender.Male,
-    picture: QINIU_CDN_URL + "Alan_Kay.png",
+    picture: QINIU_CDN_POKER_URL + "alan_kay.png",
     milestone: [
       { year: 1936, event: "发明了图灵机" },
       { year: 1939, event: "开发出可以破解纳粹加密的计算机" },

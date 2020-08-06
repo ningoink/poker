@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button'
 import { AppState } from '../../../store'
 import { I18nState } from '../../../store/i18n/types'
 import { toggleLanguage } from '../../../store/i18n/actions'
+import { toggleLayout } from '../../../store/layout/actions'
 import { toggleCollection } from '../../../store/poker/actions'
 import { EN, CN, POKER_CODER, POKER_SECOND } from '../../../interfaces'
 
@@ -40,17 +41,21 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 )
 
-const WrappedToolboxContainer: React.FC<ToolboxContainerProps> = ({ toggleLanguage, toggleCollection }) => {
+const WrappedToolboxContainer: React.FC<ToolboxContainerProps> = ({ toggleLanguage, toggleLayout, toggleCollection }) => {
   const classes = useStyles()
   const { t, i18n } = useTranslation()
-
-  const changeCollection = (collection: string) => {
-    toggleCollection(collection)
-  }
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng)
     toggleLanguage(lng)
+  }
+
+  const changeLayout = (layout: string) => {
+    toggleLayout(layout)
+  }
+
+  const changeCollection = (collection: string) => {
+    toggleCollection(collection)
   }
 
   return (
@@ -71,7 +76,17 @@ const WrappedToolboxContainer: React.FC<ToolboxContainerProps> = ({ toggleLangua
       </Grid>
       <Grid container item xs={12}>
         <div className={classes.btnRoot}>
-          <Button onClick={() => changeCollection(POKER_CODER)} variant="contained" color="primary">
+          <Button onClick={() => changeLayout(POKER_LAYOUT)} variant="contained" color="primary">
+            {t('Layout.POKER_CODER')}
+          </Button>
+          <Button onClick={() => changeLayout(POSTER_LAYOUT)} variant="contained" color="primary">
+            {t('Language.CN')}
+          </Button>
+        </div>
+      </Grid>
+      <Grid container item xs={12}>
+        <div className={classes.btnRoot}>
+          <Button onClick={() => changeCollection(POKER_CODER_)} variant="contained" color="primary">
             {t('Collection.POKER_CODER')}
           </Button>
           <Button onClick={() => changeCollection(POKER_SECOND)} variant="contained" color="primary">
@@ -85,7 +100,7 @@ const WrappedToolboxContainer: React.FC<ToolboxContainerProps> = ({ toggleLangua
 
 const ToolboxContainer = connect((
   { i18nReducer }: AppState) => ({ i18nReducer }),
-  { toggleLanguage, toggleCollection },
+  { toggleLanguage, toggleLayout, toggleCollection },
 )(WrappedToolboxContainer)
 
 export default ToolboxContainer

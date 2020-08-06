@@ -12,7 +12,16 @@ This is a poker card game repo but more than that.
 
 [programmer-cards]: https://www.freecodecamp.org/news/programmer-playing-cards
 [maintainability]: https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg
-[poker-coder]: http://qiniu.ningo.cloud/poker-coder.png
+[poker-coder]: http://qiniu.ningo.cloud/poker/poker-coder.png
+
+* poker layout
+  * poker coder collection
+  * poker physicist collection
+  * poker formula collection
+* calendar layout
+  * calendar ocselected collection
+* poster layout
+  * poster director collection
 
 ## Develop
 
