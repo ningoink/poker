@@ -1,3 +1,4 @@
+import { QINIU_CDN_HYLERRIX_URL } from "../../../config"
 import { PokerCard, CardKey, CardSuit, UserGender } from "../../../interfaces"
 
 const JokerCards: PokerCard[] = [
@@ -6,7 +7,7 @@ const JokerCards: PokerCard[] = [
     type: CardSuit.Jokers,
     coder: "BigJoker",
     gender: UserGender.Male,
-    picture: "http://qiniu.ningo.cloud/ningo/hylerrix.jpeg",
+    picture: QINIU_CDN_HYLERRIX_URL + "hylerrix.jpeg",
     milestone: [
       { year: 2020, event: "NingoWood BigJoker" },
     ],
@@ -17,7 +18,7 @@ const JokerCards: PokerCard[] = [
     type: CardSuit.Jokers,
     coder: "LittleJoker",
     gender: UserGender.Other,
-    picture: "http://qiniu.ningo.cloud/ningo/hylerrix.jpeg",
+    picture: QINIU_CDN_HYLERRIX_URL + "hylerrix.jpeg",
     milestone: [
       { year: 2020, event: "NingoWood LittleJoker" },
     ],

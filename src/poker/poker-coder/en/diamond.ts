@@ -7,7 +7,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Dorothy Vaughan",
     gender: UserGender.Female,
-    picture: QINIU_CDN_POKER_URL + "Dorothy_Vaughan.png",
+    picture: QINIU_CDN_POKER_URL + "dorothy_vaughan.png",
     milestone: [
       { year: 1943, event: "Calculated flight trajectories for the US space program" },
       { year: 1961, event: "Taught her entire staff FORTRAN programming" },
@@ -19,7 +19,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Parisa Tabriz",
     gender: UserGender.Female,
-    picture: QINIU_CDN_POKER_URL + "Parisa_Tabriz.jpg",
+    picture: QINIU_CDN_POKER_URL + "parisa_tabriz.jpg",
     milestone: [
       { year: 2016, event: "Oversees the security of Google Chrome" },
       { year: 2018, event: "Founded Our Security Advocates Conference" },
@@ -31,7 +31,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Yukihiro Matsumoto",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Yukihiro_Matsumoto.jpeg",
+    picture: QINIU_CDN_POKER_URL + "yukihiro_matsumoto.jpeg",
     milestone: [
       { year: 1995, event: "Designed the Ruby programming language" },
     ],
@@ -42,7 +42,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Stephen Wolfram",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Stephen_Wolfram.jpg",
+    picture: QINIU_CDN_POKER_URL + "stephen_wolfram.jpg",
     milestone: [
       { year: 1986, event: "Developed the Mathematica computer algebra system" },
       { year: 1988, event: "Developed the Wolfram Alpha answer engine" },
@@ -54,7 +54,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Alexey Pajitnov",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Alexey_Pajitnov.jpg",
+    picture: QINIU_CDN_POKER_URL + "alexey_pajitnov.jpg",
     milestone: [
       { year: 1984, event: "Designed and programmed Tetris" },
     ],
@@ -65,7 +65,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Phil Zimmermann",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Phil_Zimmermann.jpg",
+    picture: QINIU_CDN_POKER_URL + "phil_zimmermann.jpg",
     milestone: [
       { year: 1991, event: "Created the Pretty Good Privacy public-key encryption program" },
     ],
@@ -76,7 +76,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Radia Perlman",
     gender: UserGender.Female,
-    picture: QINIU_CDN_POKER_URL + "Radia_Perlman.jpg",
+    picture: QINIU_CDN_POKER_URL + "radia_perlman.jpg",
     milestone: [
       { year: 1985, event: "Designed the Spanning Tree Protocol for Ethernet" },
     ],
@@ -87,7 +87,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Andrew Yao",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Andrew_Yao.jpeg",
+    picture: QINIU_CDN_POKER_URL + "andrew_yao.jpeg",
     milestone: [
       { year: 1997, event: "Proposed Yao's Minimax Principle, using the minimax theorem" },
       { year: 1979, event: "Introduced theory of communication complexity" },
@@ -100,7 +100,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Vint Cerf & Bob Kahn",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Vint_Cerf_And_Bob_Kahn.png",
+    picture: QINIU_CDN_POKER_URL + "vint_cerf_and_bob_kahn.png",
     milestone: [
       { year: 1983, event: "Invented the Transmission Control Protocol" },
       { year: 1983, event: "Invented the Internet Protocol" },
@@ -112,7 +112,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Alan Kay",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Alan_Kay.png",
+    picture: QINIU_CDN_POKER_URL + "alan_kay.png",
     milestone: [
       { year: 1970, event: "Pioneered use of Object-Oriented Programming" },
     ],
@@ -123,7 +123,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Margaret Hamilton",
     gender: UserGender.Female,
-    picture: QINIU_CDN_POKER_URL + "Margaret_Hamilton.jpg",
+    picture: QINIU_CDN_POKER_URL + "margaret_hamilton.jpg",
     milestone: [
       { year: 1969, event: "Lead software development for the Apollo Moon Landing mission" },
     ],
@@ -134,7 +134,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Jean E. Sammet",
     gender: UserGender.Female,
-    picture: QINIU_CDN_POKER_URL + "Jean_E._Sammet.png",
+    picture: QINIU_CDN_POKER_URL + "jean_e_sammet.png",
     milestone: [
       { year: 1959, event: "Helped develop the COBOL programming language" },
       { year: 1962, event: "Developed the FORMAC programming language" },
@@ -146,7 +146,7 @@ const DiamondCards: PokerCard[] = [
     type: CardSuit.Diamonds,
     coder: "Vera Molnar",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Vera_Molnar.png",
+    picture: QINIU_CDN_POKER_URL + "vera_molnar.png",
     milestone: [
       { year: 1959, event: "Started iterating combinatorial images" },
       { year: 1968, event: "Began to create algorithmic paintings based on geometric shapes and themes" },

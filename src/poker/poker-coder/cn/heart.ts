@@ -141,7 +141,7 @@ const HeartCards: PokerCard[] = [
     type: CardSuit.Hearts,
     coder: "约翰·麦卡锡",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "john_mcCarthy.jpg",
+    picture: QINIU_CDN_POKER_URL + "john_mc_carthy.jpg",
     milestone: [
       { year: 1955, event: "提出了术语“人工智能”" },
       { year: 1958, event: "创建了 Lisp 语言" },

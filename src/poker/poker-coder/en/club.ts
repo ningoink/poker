@@ -7,7 +7,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Ida Rhodes",
     gender: UserGender.Female,
-    picture: QINIU_CDN_POKER_URL + "Ida_Rhodes.jpeg",
+    picture: QINIU_CDN_POKER_URL + "ida_rhodes.jpeg",
     milestone: [
       { year: 1940, event: "Worked on Mathematical Tables Project" },
       { year: 1950, event: "Designed the C-10 programming language for the UNIVAC-I(with Betty Holberton)" },
@@ -19,7 +19,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Bram Cohen",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Bram_Cohen.jpg",
+    picture: QINIU_CDN_POKER_URL + "bram_cohen.jpg",
     milestone: [
       { year: 2002, event: "Created the BitTorrent peer-to-peer protocol" },
     ],
@@ -30,7 +30,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Brendan Eich",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Brendan_Eich.jpg",
+    picture: QINIU_CDN_POKER_URL + "brendan_eich.jpg",
     milestone: [
       { year: 1995, event: "Created JavaScript" },
     ],
@@ -41,7 +41,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Sophie Wilson",
     gender: UserGender.Female,
-    picture: QINIU_CDN_POKER_URL + "Sophie_Wilson.jpg",
+    picture: QINIU_CDN_POKER_URL + "sophie_wilson.jpg",
     milestone: [
       { year: 1978, event: "Designed the Acorn MicroComputer" },
       { year: 1981, event: "Developed BBC Basic programming language" },
@@ -53,7 +53,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "James Gosling",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "James_Gosling.jpg",
+    picture: QINIU_CDN_POKER_URL + "james_gosling.jpg",
     milestone: [
       { year: 1995, event: "Created Java" },
     ],
@@ -64,7 +64,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Bill Joy",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Bill_Joy.jpg",
+    picture: QINIU_CDN_POKER_URL + "bill_joy.jpg",
     milestone: [
       { year: 1976, event: "Created the vi editor" },
       { year: 1978, event: "Created the C shell for UNIX" },
@@ -76,7 +76,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Steve Wozniak",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Steve_Wozniak.jpg",
+    picture: QINIU_CDN_POKER_URL + "steve_wozniak.jpg",
     milestone: [
       { year: 1977, event: "Designed the Apple II, the first mass-market microcomputer" },
       { year: 1987, event: "Invented the universal remote control" },
@@ -88,7 +88,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Ward Christensen",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Ward_Christensen.jpg",
+    picture: QINIU_CDN_POKER_URL + "ward_christensen.jpg",
     milestone: [
       { year: 1977, event: "Developed XMODEM, a simple file transfer protocol" },
       { year: 1978, event: "Co-founder of CBBS bulletin board, first bulletin board brought online" },
@@ -100,7 +100,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Dennis Ritchie",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Dennis_Ritchie.jpg",
+    picture: QINIU_CDN_POKER_URL + "dennis_ritchie.jpg",
     milestone: [
       { year: 1970, event: "Co-created the Unix operating system" },
       { year: 1978, event: "Designed the C programming language" },
@@ -112,7 +112,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Dana Ulery",
     gender: UserGender.Female,
-    picture: QINIU_CDN_POKER_URL + "Dana_Ulery.jpg",
+    picture: QINIU_CDN_POKER_URL + "dana_ulery.jpg",
     milestone: [
       { year: 1961, event: "Pioneered early scientific computing applications" },
       { year: 1971, event: "Established Electronic Data Interchange standards" },
@@ -124,7 +124,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Frances Allen",
     gender: UserGender.Female,
-    picture: QINIU_CDN_POKER_URL + "Frances_Allen.jpg",
+    picture: QINIU_CDN_POKER_URL + "frances_allen.jpg",
     milestone: [
       { year: 1962, event: "Designed the compiler for the IBM Stretch, one of the first supercomputers." },
     ],
@@ -135,7 +135,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Marvin Minsky",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Marvin_Minsky.jpg",
+    picture: QINIU_CDN_POKER_URL + "marvin_minsky.jpg",
     milestone: [
       { year: 1951, event: "Invented the neural network and the first self-learning machine" },
       { year: 1963, event: "Invented the first head-mounted graphical display" },
@@ -147,7 +147,7 @@ const ClubCards: PokerCard[] = [
     type: CardSuit.Clubs,
     coder: "Alan Turing",
     gender: UserGender.Male,
-    picture: QINIU_CDN_POKER_URL + "Alan_Kay.png",
+    picture: QINIU_CDN_POKER_URL + "alan_kay.png",
     milestone: [
       { year: 1936, event: "Invented the Turing Machine" },
       { year: 1939, event: "Developed computers that could crack Nazi encryption" },
